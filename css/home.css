@@ -2,12 +2,23 @@
 
 .home {
 	height: 100vh;
+	padding: 100px;
+}
+
+.slogan {
+	font-weight: bold;
+	color: cyan;
+	font-size: 1.5em;
 }
 
 .getstarted {
 	color: white;
 	/*cursor: pointer;*/
 	font-style: italic;
+}
+
+.faq_qs h4 {
+	font-weight: bold;
 }
 
 /*.getstarted:hover {

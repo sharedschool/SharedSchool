@@ -5,9 +5,10 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Home | SharedSchool</title>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/home.css">
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/js/jquery-ui-1.12.1/jquery-ui.css">
 	<!--<link rel="stylesheet" href="/https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">-->
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -53,9 +54,6 @@
 	<a name="home"></a>
 	<div class="container-fluid home deadCenter lightblue alignCenter">
 		<img class="logo" src="/img/banner.png" alt="SharedSchool">
-		<br/>
-		<br/>
-		<br/>
 		<!--<a href="#section2" class="smoothScroll"><button type="button" class="btn btn-lg lightgreen getstarted">Building a sharing economy for education</button></a>-->
 		<div class="slogan">Building a new shared economy for education</div>
 	</div>
@@ -63,7 +61,7 @@
 		<a class="anchor first"	name="section1"></a>
 		<div class="row justify-content-center">
 			<div class="col-md-4 deadCenter text">
-				<img class="img-fluid" src="/img/edtech_stock_image_2.jpg" width="350">
+				<img class="img-fluid" src="/img/SS_hp_graphic.png" width="450">
 			</div>
 			<div class="col-md-6 text">
 				<h1 class="display-4 alignCenter adjustLeft">About</h1>
@@ -78,7 +76,7 @@
 		</div>
 		<a class="anchor second" name="section2"></a>
 		<div class="row justify-content-center gray">
-			<div class="col-md-10 text">
+			<div class="col-md-10 text faq_qs">
 				<h1 class="display-4 alignCenter">FAQ</h1>
 				<h4>Why choose SharedSchool?</h4>
 				<p>Because we're new and new is better. Next question?</p>
@@ -86,12 +84,6 @@
 				<p>Educational institutions, namely primary and secondary schools, media centers and libraries currently use SharedSchool. In the future, individual users will use the SharedSchool distribution network.</p>
 				<h4>What is the cost of a SharedSchool account?</h4>
 				<p> Nothing! SharedSchool is free. </p>
-				<h4>Is data input a manual process?</h4>
-				<p>No. Both the interpretation and statistical analysis are autonomous processes.</p>
-				<h4>How is SharedSchool different from other autonomous filtering algorithms?</h4>
-				<p>SharedSchool incorporates human feedback from KeyScore into system improvement mechanisms, so it is designed to improve its algorithm as it parses through larger volumes of literature. </p>
-				<h4>Isn't language processing slow?</h4>
-				<p>Many other filtering algorithms employ general language processing and thus can be slower and often only semi-automated. However, SharedSchool uses a sort of “mini” computer language&mdash;one that is domain-specific to oncological genomic studies. The specialization of the system to a limited domain creates a streamlined and unique focus.</p>
 			</div>
 		</div>
 		<a class="anchor third" name="section3"></a>
@@ -143,26 +135,141 @@
 						<p>Sign up as:</p>
 						<div>
 							<button type="button" class="btn btn-primary signup-btn signup-teacher">Teacher</button>
-							<button type="button" class="btn btn-secondary signup-btn">Supervisor</button>
-							<button type="button" class="btn btn-success signup-btn">Institution</button>
+							<button type="button" class="btn btn-secondary signup-btn signup-supervisor">Supervisor</button>
+							<button type="button" class="btn btn-success signup-btn signup-institution">Institution</button>
 						</div>
 					</div>
 					<div class="signup-form signup-teacher">
 						<form>
 							<div class="form-group">
-								<label for="email">Email address</label>
-								<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email (preferably institution)">
+								<label for="name">Full name</label>
+								<input type="text" class="form-control" name="fullname" placeholder="e.g. John Doe">
 							</div>
 							<div class="form-group">
-								<label for="exampleInputPassword1">Password</label>
-								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+								<label for="email">Email address (preferably institution)</label>
+								<input type="email" class="form-control" namr="email" aria-describedby="emailHelp" placeholder="e.g. jdoe@school.org">
+							</div>
+							<div class="form-group">
+								<label for="password1">Password</label>
+								<input type="password" class="form-control" name="password1" placeholder="Password">
+							</div>
+							<div class="form-group">
+								<label for="password2">Confirm password</label>
+								<input type="password" class="form-control" name="password2" placeholder="Password">
+							</div>
+							<div class="form-group">
+								<label for="subject">Subject taught</label>
+								<select class="form-control" name="subject">
+									<option selected disabled>Select a subject</option>
+									<option>Math</option>
+									<option>Physics</option>
+									<option>Chemistry</option>
+									<option>Biology</option>
+									<option>English</option>
+									<option>History</option>
+									<option>Spanish</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="institution">Institution</label>
+								<input type="text" class="form-control" name="institution" placeholder="e.g. Metropolis High School">
 							</div>
 							<button type="submit" class="btn btn-primary">Submit</button>
 						</form>
 					</div>
-				</div>
-					<div class="modal-footer">
-					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					<div class="signup-form signup-supervisor">
+						<form>
+							<div class="form-group">
+								<label for="name">Full name</label>
+								<input type="text" class="form-control" name="fullname" placeholder="e.g. John Doe">
+							</div>
+							<div class="form-group">
+								<label for="email">Email address (preferably institution)</label>
+								<input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="e.g. jdoe@school.org">
+							</div>
+							<div class="form-group">
+								<label for="password1">Password</label>
+								<input type="password" class="form-control" name="password1" placeholder="Password">
+							</div>
+							<div class="form-group">
+								<label for="password2">Confirm password</label>
+								<input type="password" class="form-control" name="password2" placeholder="Password">
+							</div>
+							<div class="form-group">
+								<label for="dept">Department</label>
+								<select class="form-control" name="dept">
+									<option selected disabled>Select a department</option>
+									<option>Math</option>
+									<option>Science</option>
+									<option>Foreign Language</option>
+									<option>English</option>
+									<option>History</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="subject">Subjects taught (if applicable</label>
+								<select multiple class="form-control" name="subject">
+									<option selected disabled>Select subjects</option>
+									<option>Math</option>
+									<option>Physics</option>
+									<option>Chemistry</option>
+									<option>Biology</option>
+									<option>English</option>
+									<option>History</option>
+									<option>Spanish</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="institution">Institution</label>
+								<input type="text" class="form-control" name="institution" placeholder="e.g. Metropolis High School">
+							</div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+					</div>
+					<div class="signup-form signup-institution">
+						<form>
+							<div class="form-group">
+								<label for="name">Institution name</label>
+								<input type="text" class="form-control" name="institution" placeholder="e.g. Metropolis High School">
+							</div>
+							<div class="form-group">
+								<label for="email">Institution email address</label>
+								<input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="e.g. board@school.org">
+							</div>
+							<div class="form-group">
+								<label for="password1">Password</label>
+								<input type="password" class="form-control" name="password1" placeholder="Password">
+							</div>
+							<div class="form-group">
+								<label for="password2">Confirm password</label>
+								<input type="password" class="form-control" name="password2" placeholder="Password">
+							</div>
+							<div class="form-group">
+								<label for="students">Approximate student enrollment</label>
+								<input type="number" class="form-control" name="students" placeholder="e.g. 1500">
+							</div>
+							<div class="form-group">
+								<label for="level">School level</label>
+								<select class="form-control" name="level">
+									<option selected disabled>Select a level</option>
+									<option>Elementary</option>
+									<option>Middle / Junior High</option>
+									<option>High School (9-12)</option>
+									<option>Other</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="type">School level</label>
+								<select class="form-control" name="type">
+									<option selected disabled>Select a type</option>
+									<option>Public</option>
+									<option>Private</option>
+									<option>Other</option>
+								</select>
+							</div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>

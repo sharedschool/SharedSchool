@@ -117,5 +117,15 @@ $(document).ready(function() {
 			$(".signup-1").hide("slide", { direction: "up" }, 500);
 			$(".signup-form.signup-teacher").show("slide", { direction: "down" }, 500);
 		});
+		$(".signup-btn.signup-supervisor").click(function(){
+			//$("#myCarousel").carousel("next");
+			$(".signup-1").hide("slide", { direction: "up" }, 500);
+			$(".signup-form.signup-supervisor").show("slide", { direction: "down" }, 500);
+		});
+		$(".signup-btn.signup-institution").click(function(){
+			//$("#myCarousel").carousel("next");
+			$(".signup-1").hide("slide", { direction: "up" }, 500);
+			$(".signup-form.signup-institution").show("slide", { direction: "down" }, 500);
+		});
 	});
 });

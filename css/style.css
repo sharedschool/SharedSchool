@@ -1,8 +1,19 @@
 @charset "utf-8";
 
+body {
+	font-family: Quicksand, sans-serif;
+}
+
 .navbar-brand a:hover {
 	color: rgba(255, 255, 255, 0.75);
 	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+#exampleModalLabel {
+	text-align: center;
+	width: 100%;
 }
 
 /*#navbarSupportedContent > ul > li > a.nav-link.smoothScroll {
@@ -18,10 +29,6 @@
 }
 
 .icon a {
-	color: white;
-}
-
-label {
 	color: white;
 }
 
@@ -140,7 +147,7 @@ label {
 		position: relative;
 		width: 50%;
 		min-width: 400px;
-		display: inline-block;
+		display: flex;
 		float: none;
 	}
 	.navbar .navbar-collapse {
@@ -164,4 +171,8 @@ label {
 
 a[href*='000webhost'] {
     display: none;
+}
+
+.signup-form {
+	overflow: scroll;
 }
