@@ -1,1 +1,1 @@
-# SharedSchool
+# sharedschool.github.io
