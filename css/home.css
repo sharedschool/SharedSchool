@@ -13,8 +13,7 @@
 
 .getstarted {
 	color: white;
-	/*cursor: pointer;*/
-	font-style: italic;
+	cursor: pointer;
 }
 
 .faq_qs h4 {
