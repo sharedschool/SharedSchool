@@ -105,7 +105,7 @@ $(document).ready(function() {
 		$(".four").attr("class","four");
 		$(".five").attr("class","five active");
 	}
-	// Login functionality
+	// Sign up functionality
 	$(".signup").click(function(){
 		// Show sign up modal
 		$("#signupModal").modal();
@@ -127,5 +127,12 @@ $(document).ready(function() {
 			$(".signup-1").hide("slide", { direction: "up" }, 500);
 			$(".signup-form.signup-institution").show("slide", { direction: "down" }, 500);
 		});
+	});
+	// Sign up form
+	$("form").attr("action", "/signup.php");
+	$("form").attr("method", "POST");
+	$("form").on("submit", function(event){
+		//event.preventDefault();
+		alert("Sign up coming soon, " + this.elements["fullname"].value);
 	});
 });

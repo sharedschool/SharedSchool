@@ -50,6 +50,9 @@
 				<hr class="slide">
 			</ul>
 		</div>
+		<div class="request-demo">
+			<button type="button" class="btn btn-sm getstarted">Request Demo</button>
+		</div>
 	</nav>
 	<a name="home"></a>
 	<div class="container-fluid home deadCenter lightblue alignCenter">
@@ -89,7 +92,7 @@
 				<h4> What is the cost of a SharedSchool account? </h4>
 				<p> Nothing! SharedSchool is free. </p>
 				<h4> How does SharedSchool work? </h4>
-				<p> SharedSchool uses novel matching algorithms to correctly identify and optimize the properlistings with requests based on time, availability, and location. Our distribution network will then supply the materials based on these matchings. </p>
+				<p> SharedSchool uses novel matching algorithms to correctly identify and optimize the proper listings with requests based on time, availability, and location. Our distribution network will then supply the materials based on these matchings. </p>
 				<h4> How can SharedSchool make and/or save me money? </h4>
 				<p> Many institutions either have surplus materials or need materials. We can generate extra revenue for your school by listing surplus materials onto the SharedSchool platform and connecting them to other schools who need these items. The schools wanting these materials will receive them at a cheaper price because they are typically used and have the option to rent them. </p>
 				<h4> Why is SharedSchool different from other surplus centers? </h4>
@@ -154,9 +157,9 @@
 					<div class="signup-1">
 						<p>Sign up as:</p>
 						<div>
-							<button type="button" class="btn btn-primary signup-btn signup-teacher">Teacher</button>
-							<button type="button" class="btn btn-secondary signup-btn signup-supervisor">Supervisor</button>
-							<button type="button" class="btn btn-success signup-btn signup-institution">Institution</button>
+							<button type="button" class="btn signup-btn signup-teacher">Teacher</button>
+							<button type="button" class="btn signup-btn signup-supervisor">Supervisor</button>
+							<button type="button" class="btn signup-btn signup-institution">Institution</button>
 						</div>
 					</div>
 					<div class="signup-form signup-teacher">
@@ -167,7 +170,7 @@
 							</div>
 							<div class="form-group">
 								<label for="email">Email address (preferably institution)</label>
-								<input type="email" class="form-control" namr="email" aria-describedby="emailHelp" placeholder="e.g. jdoe@school.org">
+								<input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="e.g. jdoe@school.org">
 							</div>
 							<div class="form-group">
 								<label for="password1">Password</label>
@@ -194,6 +197,7 @@
 								<label for="institution">Institution</label>
 								<input type="text" class="form-control" name="institution" placeholder="e.g. Metropolis High School">
 							</div>
+							<input type="hidden" name="acnt_type" value="teacher" />
 							<button type="submit" class="btn btn-primary">Submit</button>
 						</form>
 					</div>
@@ -227,8 +231,8 @@
 								</select>
 							</div>
 							<div class="form-group">
-								<label for="subject">Subjects taught (if applicable</label>
-								<select multiple class="form-control" name="subject">
+								<label for="subjects[]">Subjects taught (if applicable)</label>
+								<select multiple class="form-control" name="subjects[]">
 									<option selected disabled>Select subjects</option>
 									<option>Math</option>
 									<option>Physics</option>
@@ -243,6 +247,7 @@
 								<label for="institution">Institution</label>
 								<input type="text" class="form-control" name="institution" placeholder="e.g. Metropolis High School">
 							</div>
+							<input type="hidden" name="acnt_type" value="supervisor" />
 							<button type="submit" class="btn btn-primary">Submit</button>
 						</form>
 					</div>
@@ -279,7 +284,7 @@
 								</select>
 							</div>
 							<div class="form-group">
-								<label for="type">School level</label>
+								<label for="type">School type</label>
 								<select class="form-control" name="type">
 									<option selected disabled>Select a type</option>
 									<option>Public</option>
@@ -287,6 +292,7 @@
 									<option>Other</option>
 								</select>
 							</div>
+							<input type="hidden" name="acnt_type" value="institution" />
 							<button type="submit" class="btn btn-primary">Submit</button>
 						</form>
 					</div>

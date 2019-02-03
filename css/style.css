@@ -167,6 +167,10 @@ h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 	.anchor {
 		top: -50px;
 	}
+	.request-demo {
+		right: 40px;
+		position: absolute;
+	}
 }
 
 a[href*='000webhost'] {
@@ -175,4 +179,25 @@ a[href*='000webhost'] {
 
 .signup-form {
 	overflow: scroll;
+}
+
+.signup-btn {
+	color: white;
+}
+
+.signup-btn.signup-teacher { background-color: #3fcbe0; border: 1px solid #2da7cc; }
+.signup-btn.signup-teacher:hover { background-color: #2da7cc; }
+
+.signup-btn.signup-supervisor { background-color: #3aa5f7; border: 1px solid #3275c2; }
+.signup-btn.signup-supervisor:hover { background-color: #3275c2; }
+
+.signup-btn.signup-institution { background-color: #2247b3; border: 1px solid #17277a; }
+.signup-btn.signup-institution:hover { background-color: #17277a; }
+
+.request-demo button {
+	background-color: #0FCDAF;
+}
+
+.request-demo:hover button {
+ 	background-color: #0DBD8F;
 }
