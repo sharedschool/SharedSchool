@@ -82,7 +82,7 @@
 		<div class="row justify-content-center gray">
 			<div class="col-md-10 text faq_qs">
 				<h1 class="display-4 alignCenter">FAQ</h1>
-				<h4> Why should I use SharedSchool yeet ? </h4>
+				<h4> Why should I use SharedSchool? </h4>
 				<p> There are many key advantages to using the SharedSchool platform. In summary, if you want to generate revenue and/or save money for your institution, join SharedSchool today! </p>
 				<h4> Who uses SharedSchool? </h4>
 				<p> Educational institutions, namely primary and secondary schools, media centers and libraries currently use SharedSchool. Teachers and supervisors are also a part of the SharedSchool network since they are affiliated with their own institution. In the near future, we will provide individual user accounts where anyone can use the SharedSchool platform. </p>
