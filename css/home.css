@@ -5,10 +5,18 @@
 	padding: 100px;
 }
 
+.hp_bg {
+	width: 100%;
+}
+
+@font-face {
+  font-family: SukhumvitSet;
+  src: url("/css/SukhumvitSet-Thin.ttf");
+}
+
 .slogan {
-	font-weight: bold;
-	color: cyan;
-	font-size: 1.5em;
+	font-family:SukhumvitSet;
+	margin-top:-55%;
 }
 
 .getstarted {

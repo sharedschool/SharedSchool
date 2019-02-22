@@ -18,6 +18,7 @@ $(document).ready(function() {
 			scrollTop: $("a[name="+name+"]").offset().top
 		}, 500);
 	});
+		
 	function updateSlide(){
 		if ($(window).width() > 768) {
 			if ($(window).scrollTop() < $(".first").offset().top - 1) {

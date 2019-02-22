@@ -1,5 +1,7 @@
+
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -16,9 +18,14 @@
 	<script src="/js/bootstrap.bundle.min.js"></script>
 	<script src="/js/jquery-ui-1.12.1/jquery-ui.js"></script>
 	<script src="/js/script.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-	<nav class="navbar fixed-top navbar-expand-md navbar-dark darkblue">
+	<nav class="navbar fixed-top navbar-expand-md navbar-dark darkblue" style="margin-bottom:0px">
 		<div class="navbar-brand icon">
 			<a class="smoothScroll" href="#home">
 				<img src="/img/icon_light.png" width="35" height="35">
@@ -55,10 +62,32 @@
 		</div>
 	</nav>
 	<a name="home"></a>
-	<div class="container-fluid home deadCenter lightblue alignCenter">
-		<img class="logo" src="/img/banner.png" alt="SharedSchool">
+	<div id="myCarousel" data-ride="carousel" data-interval="4000" class="carousel slide container-fluid deadCenter alignCenter" style="padding: 0px;">
+	<div class="carousel-inner" style="max-height:45em">
+		<div class="item active" >
+			<img class="hp_bg" src="/img/hp_bg1.png" alt="background 1">
+			<div class="carousel-caption"><h1 class="slogan">We enable easy access to specialized materials at a moments notice</h1></div>
+		</div>
+
+		<div class="item">
+			<img class="hp_bg" src="/img/hp_bg2.png" alt="background 2">
+			<div class="carousel-caption"><h1 class="slogan">We help build long term relationships between institutions</h1></div>
+		</div>
+
+		<div class="item">
+			<img class="hp_bg" src="/img/hp_bg3.png" alt="background 3">
+			<div class="carousel-caption slogan"><h1 class="slogan">We empower institutions to find new source of revenue through a shared economy model</h1></div>
+		</div>
 		<!--<a href="#section2" class="smoothScroll"><button type="button" class="btn btn-lg lightgreen getstarted">Building a sharing economy for education</button></a>-->
-		<div class="slogan">Building a new shared economy for education</div>
+	</div>
+	  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+		<span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+		<span class="sr-only">Next</span>
+	  </a>	
 	</div>
 	<div class="container-fluid">
 		<a class="anchor first"	name="section1"></a>
