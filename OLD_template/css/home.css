@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+.home {
+	height: 100vh;
+	padding: 100px;
+}
+
+.slogan {
+	font-weight: bold;
+	color: cyan;
+	font-size: 1.5em;
+}
+
+.getstarted {
+	color: white;
+	cursor: pointer;
+}
+
+.faq_qs h4 {
+	font-weight: bold;
+}
+
+/*.getstarted:hover {
+	background-color: #0CB098;
+}*/
+
+.gold {
+	background-color: #ffd700;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+.text {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav>li {
+		width: 25%;
+	}
+	.one:hover~hr {
+		margin-left: 0%;
+	}
+	.two:hover~hr {
+		margin-left: 20%;
+	}
+	.three:hover~hr {
+		margin-left: 40%;
+	}
+	.four:hover~hr {
+		margin-left: 60%;
+	}
+	.five:hover~hr {
+		margin-left: 80%;
+	}
+	hr {
+		position: absolute;
+		height: 5px !important;
+		top: 27px;
+		left: 0px;
+		width: 20%;
+		min-width: 100px;
+		background: #0FCDAF;
+		border: none;
+		transition: .2s ease-in-out;
+		pointer-events: none;
+		display: none;
+	}
+	.section1 {
+		margin-left: 0%;
+	}
+	.section2 {
+		margin-left: 20%;
+	}
+	.section3 {
+		margin-left: 40%;
+	}
+	.section4 {
+		margin-left: 60%;
+	}
+	.section5 {
+		margin-left: 80%;
+	}
+}
+
+.signup-btn {
+	width: 100px;
+	height: 100px;
+	margin: 15px;
+}
