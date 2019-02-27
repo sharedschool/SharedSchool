@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Home | SharedSchool</title>
+	<style>a[href*='000webhost']{display:none;}</style>
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand" />
 	<link rel="stylesheet" type="text/css" href="/bootstrap-4.3.1/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="/css/home.css" />
