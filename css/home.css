@@ -1,30 +1,9 @@
-body {
-	font-family: Quicksand, Roboto, sans-serif;
-	position: relative;
-}
-
 .carousel-caption {
 	top: 50%;
 	bottom: initial;
 	transform: translateY(-50%);
 	vertical-align: middle;
 	font-size: 2em;
-}
-
-.nav-btn, .nav-item {
-	margin-left: 5px;
-	margin-right: 5px;
-}
-
-.deadCenter {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
-
-.alignCenter {
-	text-align: center;
 }
 
 #page-content > div {
@@ -37,6 +16,14 @@ body {
 	background: #F5F5F5;
 }
 
-.demo-btn {
-	
+#faqAccordion > .collapse {
+	width: 100%;
+}
+
+.demo-btn, .demo-btn:hover {
+	border: 3px solid #57C4C3;
+}
+
+.demo-btn:hover {
+	color: #57C4C3;
 }

@@ -1,47 +1,16 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Home | SharedSchool</title>
-	<style>a[href*='000webhost']{display:none;}</style>
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand" />
-	<link rel="stylesheet" type="text/css" href="/bootstrap-4.3.1/css/bootstrap.min.css" />
+	<?php include './helper/includes.php'; ?>
 	<link rel="stylesheet" type="text/css" href="/css/home.css" />
-	<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="/js/popper.min.js"></script>
-	<script type="text/javascript" src="/bootstrap-4.3.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/js/home.js"></script>
 </head>
 <body data-spy="scroll" data-target="#navbar-top" data-offset="0" >
 
 <!-- Navigation bar -->
-<nav id="navbar-top" class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #0f0e2e;">
-	<a class="navbar-brand" href="/">
-		<img src="/img/logo_text.png" height="35" class="d-inline-block align-top" alt="SharedSchool">
-	</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav mr-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#about">About</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#faq">FAQ</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#contact">Contact Us</a>
-			</li>
-		</ul>
-		<form class="form-inline my-2 my-lg-0">
-			<button class="btn btn-outline-primary nav-btn" type="button">Login</button>
-			<button class="btn btn-outline-success nav-btn" type="button">Signup</button>
-		</form>
-	</div>
-</nav>
+<?php include './helper/navbar.php'; ?>
 
 <div id="home"><a class="anchor" name="home"></a></div>
 
@@ -126,16 +95,8 @@
 				<p> Many institutions either have surplus materials or need materials. We can generate extra revenue for your school by listing surplus materials onto the SharedSchool platform and connecting them to other schools who need these items. The schools wanting these materials will receive them at a cheaper price because they are typically used and have the option to rent them. </p>
 				<h4> Why is SharedSchool different from other surplus centers? </h4>
 				<p> In general, we provide a lower cost and higher flexibility than our competitors. Currently there doesn’t exist a marketplace and shared economy where institutions can list and request specialized materials on the scale that we do. Additionally, we are working towards social good, aiming to provide institutions with essential materials at a cheaper cost, enabling other schools to gain extra revenue in the process. </p>
-				<h4> If I have to rent something continually (every year for example), should I just buy it? </h4>
-				<p> The beauty about the SharedSchool platform is that the ball is in your court. You can decide! We recommend that if you are not sure about how many materials you will need in the future, or if the material is prone to damage/breakage, then rent said material. </p>
-				<h4> What different abilities do teacher, supervisor, and institution accounts have? </h4>
-				<p> An institution account is an “umbrella” account made so that supervisors and teachers can be affiliated with an institution. Supervisors handle the transactions (requests/listings) and teachers have the ability to make suggested requests and listings. All accounts have the ability to browse the requests and listings on the platform. </p>
-				<h4> I’m a teacher and I’m not sure if I completely understand the process of how I can receive and/or list materials. Can you describe this process? </h4>
-				<p> Once your institution has created their own institution-based account, you will be able to create a separate teacher account under your institution. After creating your account, you will be able to add suggested requests and listings to be verified by an appropriate supervisor. If verified, the request/listing will be added onto the SharedSchool platform and then accordingly matched with another institution. That’s it! </p>
-				<h4> What if no one wants the material that I’m listing on SharedSchool? </h4>
-				<p> We will keep your material listed on the SharedSchool platform until you decide you want to take it off. Requests are dynamic and constantly change, so odds are that eventually you will be able to sell your material. </p>
-				<h4> Why is it important to become a part of a shared economy? </h4>
-				<p> Shared economy’s connect buyers and sellers by the means of sharing a good or service. Becoming a part of one makes it easier for you to receive these materials by increasing flexibility and lowering the cost. </p>
+				<br/>
+				<h4 align="center"> More Questions? Click <a href="/faq.php">here</a> to see our full FAQ page </h4>
 			</div>
 		</div>
 	</div>
