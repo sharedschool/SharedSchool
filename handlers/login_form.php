@@ -11,14 +11,14 @@
 	if (isset($_POST['email']) && isset($_POST['password'])){
 		$email = stringify(mysqli_real_escape_string($conn, $_POST['email']));
 		$password = $_POST['password'];
-		$result = mysqli_query($conn, 'SELECT Email, FullName, Password, AccountType FROM Accounts WHERE Email=' . $email);
+		$result = mysqli_query($conn, 'SELECT Email, FullName, Institution, Password, AccountType FROM Accounts WHERE Email=' . $email);
 		if (mysqli_num_rows($result) > 0){
 			$row = mysqli_fetch_assoc($result);
 			if (password_verify($password, $row['Password'])){
-				echo 'Success!';
-				$_SESSION['name'] = $row['FullName'];
+				$_SESSION['name'] = ($row['AccountType'] == 3) ? $row['Institution'] : $row['FullName'];
 				$_SESSION['email'] = $row['Email'];
 				$_SESSION['type'] = $row['AccountType'];
+				header('Location: /portal.php');
 			} else {
 				echo 'Incorrect password';
 			}

@@ -11,17 +11,26 @@
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item">
-				<a class="nav-link" href="/#home">Home</a>
+				<a class="nav-link smoothscroll" href="/#home">Home</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/#about">About</a>
+				<a class="nav-link smoothscroll" href="/#about">About</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link <?php if($page=='faq') echo 'active'; ?>" href="/<?php if ($page=='index') echo '#faq'; else echo 'faq.php'; ?>">FAQ</a>
+				<a class="nav-link <?php if($page=='faq') echo 'active'; else echo 'smoothscroll'; ?>" href="/<?php if ($page=='index') echo '#faq'; else echo '/faq.php'; ?>">FAQ</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/#contact">Contact Us</a>
+				<a class="nav-link smoothscroll" href="/#contact">Contact Us</a>
 			</li>
+			<?php
+				if (isset($_SESSION['type'])){
+					echo '
+			<li class="nav-item">
+				<a class="nav-link" href="/portal/">Portal</a>
+			</li>
+					';
+				}
+			?>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
 			<?php

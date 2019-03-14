@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	function filled_out($array){
 		foreach ($array as $key){
 			if (isset($_POST[$key])){
@@ -83,7 +84,10 @@
 					);
 				}
 				if(insertData($conn, 'Accounts', $data)){
-					echo 'Account created.<br/>';
+					$_SESSION['email'] = $data['Email'];
+					$_SESSION['type'] = $data['AccountType'];
+					$_SESSION['name'] = ($data['AccountType'] == 3) ? $data['Institution'] : $data['FullName'];
+					header('Location: /portal.php');
 				} else {
 					echo 'Account creation failed.<br/>';
 				}
