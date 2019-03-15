@@ -87,7 +87,7 @@
 					$_SESSION['email'] = $data['Email'];
 					$_SESSION['type'] = $data['AccountType'];
 					$_SESSION['name'] = ($data['AccountType'] == 3) ? $data['Institution'] : $data['FullName'];
-					header('Location: /portal.php');
+					header('Location: /portal/');
 				} else {
 					echo 'Account creation failed.<br/>';
 				}
