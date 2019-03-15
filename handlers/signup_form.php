@@ -48,7 +48,12 @@
 				($acnt == 'institution' && filled_out(['students','level','type']))
 			){
 				// Now we can sign up
-				$conn = mysqli_connect('127.0.0.1', 'backend', 'teeky2', 'SharedSchool');
+				$conn = false;
+				if(strpos( $_SERVER['HTTP_HOST'], 'sharedschool.tk') !== false){
+					$conn = mysqli_connect('localhost', 'id8511368_backend', 'teeky2', 'id8511368_sharedschool');
+				} else {
+					$conn = mysqli_connect('127.0.0.1', 'backend', 'teeky2', 'SharedSchool');
+				}
 				if (!$conn){
 					die("Connection failed: " . mysqli_connect_error());
 				}
