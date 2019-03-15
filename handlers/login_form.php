@@ -18,7 +18,7 @@
 				$_SESSION['name'] = ($row['AccountType'] == 3) ? $row['Institution'] : $row['FullName'];
 				$_SESSION['email'] = $row['Email'];
 				$_SESSION['type'] = $row['AccountType'];
-				header('Location: /portal.php');
+				header('Location: /portal/');
 			} else {
 				echo 'Incorrect password';
 			}
