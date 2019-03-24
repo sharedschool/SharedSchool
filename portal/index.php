@@ -6,6 +6,7 @@
 <html>
 <head>
 	<title>Portal | SharedSchool</title>
+	<link rel="icon" href="/img/logo_icon.png" type="image/png">
 	<?php include '../helper/includes.php'; ?>
 	<link rel="stylesheet" type="text/css" href="/css/portal.css" />
 	<script type="text/javascript" src="/js/portal.js"></script>
@@ -16,13 +17,13 @@
 <?php include '../helper/portal_navbar.php'; ?>
 
 <?php
-	if (isset($_POST['signup'])){
+	if (isset($_GET['signup'])){
 		echo '
-<div class="alert alert-success" role="alert">
-	<h4 class="alert-heading">Congratulations!</h4>
-	<hr>
-	<p class="mb-0">This is the portal where you can access all of your SharedSchool tools.</p>
-</div>
+			<div class="alert alert-success" role="alert" style="text-align: center; margin-bottom: 0;">
+				<h4 class="alert-heading">Congratulations!</h4>
+				<hr>
+				<p class="mb-0">This is the portal where you can access all of your SharedSchool tools.</p>
+			</div>
 		';
 	}
 ?>

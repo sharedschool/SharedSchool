@@ -36,7 +36,7 @@
 		}
 	}
 	// Validate some constant form data
-	if (filled_out(['acnt_type','institution','email','password1','password1'])){
+	if (filled_out(['acnt_type','institution','email','password1','password2'])){
 		// TODO: Make sure email is not taken
 		// Make sure passwords match
 		if ($_POST['password1'] == $_POST['password2']){
