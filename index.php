@@ -3,7 +3,6 @@
 <html>
 <head>
 	<title>Home | SharedSchool</title>
-	<link rel="icon" href="/img/logo_icon.png" type="image/png">
 	<?php include './helper/includes.php'; ?>
 	<link rel="stylesheet" type="text/css" href="/css/home.css" />
 	<script type="text/javascript" src="/js/home.js"></script>

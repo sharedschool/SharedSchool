@@ -6,7 +6,6 @@
 <html>
 <head>
 	<title>Portal | SharedSchool</title>
-	<link rel="icon" href="/img/logo_icon.png" type="image/png">
 	<?php include '../helper/includes.php'; ?>
 	<link rel="stylesheet" type="text/css" href="/css/portal.css" />
 	<script type="text/javascript" src="/js/portal.js"></script>
