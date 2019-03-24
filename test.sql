@@ -46,6 +46,39 @@ LOCK TABLES `Accounts` WRITE;
 INSERT INTO `Accounts` VALUES ('Peter Linder','peterlinder66@gmail.com','$2y$10$gnoVNyk2/8MTleziCGboWuCG.jwoYkT9yXyFuXFfpBObAeynO.lwC','Physics','Peter School of Education',NULL,NULL,NULL,NULL,1);
 /*!40000 ALTER TABLE `Accounts` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `Inventory`
+--
+
+DROP TABLE IF EXISTS `Inventory`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Inventory` (
+  `Seller` varchar(255) DEFAULT NULL,
+  `Buyer` varchar(255) DEFAULT NULL,
+  `Category` varchar(255) DEFAULT NULL,
+  `Item` varchar(50) DEFAULT NULL,
+  `Model` varchar(50) DEFAULT NULL,
+  `Price` double(10,2) DEFAULT NULL,
+  `Condition` varchar(255) DEFAULT NULL,
+  `Description` text,
+  `Posted` date DEFAULT NULL,
+  `Updated` date DEFAULT NULL,
+  `Quantity` int(10) unsigned DEFAULT NULL,
+  `Image` mediumblob
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Inventory`
+--
+
+LOCK TABLES `Inventory` WRITE;
+/*!40000 ALTER TABLE `Inventory` DISABLE KEYS */;
+INSERT INTO `Inventory` VALUES ('peterlinder66@gmail.com',NULL,'Laptop Computer','Chromebook','Samsung Chromebook 3',300.00,'Slightly used','Fast and furious chromebooks','2019-03-24','2019-03-24',3,NULL);
+/*!40000 ALTER TABLE `Inventory` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -56,4 +89,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-03-24 13:56:05
+-- Dump completed on 2019-03-24 14:57:20
