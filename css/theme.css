@@ -30,8 +30,8 @@ body {
 .signup-btn.signup-teacher { background-color: #3fcbe0; border: 1px solid #2da7cc; }
 .signup-btn.signup-teacher:hover { background-color: #2da7cc; }
 
-.signup-btn.signup-supervisor { background-color: #3aa5f7; border: 1px solid #3275c2; }
-.signup-btn.signup-supervisor:hover { background-color: #3275c2; }
+.signup-btn.signup-administrator { background-color: #3aa5f7; border: 1px solid #3275c2; }
+.signup-btn.signup-administrator:hover { background-color: #3275c2; }
 
 .signup-btn.signup-institution { background-color: #2247b3; border: 1px solid #17277a; }
 .signup-btn.signup-institution:hover { background-color: #17277a; }

@@ -17,9 +17,9 @@ $(document).ready(function() {
 			$("#signupModal").modal('hide');
 			$("#signupModal-teacher").modal('show');
 		});
-		$(".signup-btn.signup-supervisor").click(function(){
+		$(".signup-btn.signup-administrator").click(function(){
 			$("#signupModal").modal('hide');
-			$("#signupModal-supervisor").modal('show');
+			$("#signupModal-administrator").modal('show');
 		});
 		$(".signup-btn.signup-institution").click(function(){
 			$("#signupModal").modal('hide');

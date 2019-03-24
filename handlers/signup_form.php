@@ -44,7 +44,7 @@
 			$acnt = $_POST['acnt_type'];
 			if (
 				($acnt == 'teacher' && filled_out(['fullname','subject'])) ||
-				($acnt == 'supervisor' && filled_out(['fullname','dept','subject'])) ||
+				($acnt == 'administrator' && filled_out(['fullname','dept','subject'])) ||
 				($acnt == 'institution' && filled_out(['students','level','type']))
 			){
 				// Now we can sign up
@@ -67,7 +67,7 @@
 						'Institution' => $_POST['institution'],
 						'AccountType' => 1
 					);
-				} elseif ($acnt == 'supervisor'){
+				} elseif ($acnt == 'administrator'){
 					$data = array(
 						'FullName' => $_POST['fullname'],
 						'Email' => $_POST['email'],
@@ -92,7 +92,7 @@
 					$_SESSION['email'] = $data['Email'];
 					$_SESSION['type'] = $data['AccountType'];
 					$_SESSION['name'] = ($data['AccountType'] == 3) ? $data['Institution'] : $data['FullName'];
-					header('Location: /portal/');
+					header('Location: /portal/?signup=1');
 				} else {
 					echo 'Account creation failed.<br/>';
 				}

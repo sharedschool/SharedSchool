@@ -26,7 +26,7 @@ CREATE TABLE `Accounts` (
   `FullName` tinytext,
   `Email` varchar(255) NOT NULL,
   `Password` tinytext NOT NULL,
-  `Subjects` tinytext,
+  `Subject` varchar(25) DEFAULT NULL,
   `Institution` tinytext NOT NULL,
   `Department` varchar(25) DEFAULT NULL,
   `Students` smallint(6) DEFAULT NULL,
@@ -43,7 +43,7 @@ CREATE TABLE `Accounts` (
 
 LOCK TABLES `Accounts` WRITE;
 /*!40000 ALTER TABLE `Accounts` DISABLE KEYS */;
-INSERT INTO `Accounts` VALUES ('Prateek Humane','192050@whrhs-stu.org','$2y$10$baUkxbu9l1yXhFy5.rRXVOfj3zgdxkM3Bky0nT4ghz.9IfmGLqULG','Math;Physics;Chemistry','Peter School of Education','Science',NULL,NULL,NULL,1),(NULL,'galexis@whrhs.org','$2y$10$nCh2/V4aH2rux.GhEE.JhO.e6ianvhJRiHUNIPIq3zfKdw70Kf9lS',NULL,'Watchung Hills ',NULL,2000,'High School (9-12)','Public',2),('Peter Linder','pzlinder66@gmail.com','$2y$10$xF09ejEPXJ7fh9i9n4XTiue4TTqG3X8opGJw/0o6GoFxqkHk3qHMu','Math','Peter School of Education',NULL,NULL,NULL,NULL,0);
+INSERT INTO `Accounts` VALUES ('Peter Linder','peterlinder66@gmail.com','$2y$10$gnoVNyk2/8MTleziCGboWuCG.jwoYkT9yXyFuXFfpBObAeynO.lwC','Physics','Peter School of Education',NULL,NULL,NULL,NULL,1);
 /*!40000 ALTER TABLE `Accounts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -56,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-02-03 16:51:34
+-- Dump completed on 2019-03-24 13:56:05

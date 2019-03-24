@@ -14,7 +14,7 @@
 				<a class="nav-link" href="/portal/">Portal</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Manage</a>
+				<a class="nav-link" href="/portal/manage.php">Manage</a>
 			</li>
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -45,7 +45,7 @@
 				</ul>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Profile</a>
+				<a class="nav-link" href="/portal/profile.php">Profile</a>
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">

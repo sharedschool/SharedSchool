@@ -12,7 +12,7 @@
 					<p>Sign up as:</p>
 					<div>
 						<button type="button" class="btn signup-btn signup-teacher">Teacher</button>
-						<button type="button" class="btn signup-btn signup-supervisor">Supervisor</button>
+						<button type="button" class="btn signup-btn signup-administrator">Administrator</button>
 						<button type="button" class="btn signup-btn signup-institution">Institution</button>
 					</div>
 				</div>
@@ -73,17 +73,17 @@
 	</div>
 </div>
 </div>
-<div class="modal fade" id="signupModal-supervisor" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel-supervisor" aria-hidden="true">
+<div class="modal fade" id="signupModal-administrator" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel-administrator" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-scrollable" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="signupModalLabel-supervisor">Sign up for SharedSchool &gt; Supervisor</h5>
+				<h5 class="modal-title" id="signupModalLabel-administrator">Sign up for SharedSchool &gt; Administrator</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body" style="text-align:center">
-				<div class="signup-form signup-supervisor">
+				<div class="signup-form signup-administrator">
 					<form>
 						<div class="form-group">
 							<label for="name">Full name</label>
@@ -129,7 +129,7 @@
 							<label for="institution">Institution</label>
 							<input type="text" class="form-control" name="institution" placeholder="e.g. Metropolis High School">
 						</div>
-						<input type="hidden" name="acnt_type" value="supervisor" />
+						<input type="hidden" name="acnt_type" value="administrator" />
 						<button type="submit" class="btn btn-primary">Sign up</button>
 					</form>
 				</div>

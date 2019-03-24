@@ -15,6 +15,18 @@
 <!-- Navigation bar -->
 <?php include '../helper/portal_navbar.php'; ?>
 
+<?php
+	if (isset($_POST['signup'])){
+		echo '
+<div class="alert alert-success" role="alert">
+	<h4 class="alert-heading">Congratulations!</h4>
+	<hr>
+	<p class="mb-0">This is the portal where you can access all of your SharedSchool tools.</p>
+</div>
+		';
+	}
+?>
+
 <!-- Landing portal thing -->
 <div id="carouselPortal" class="carousel slide" data-ride="carousel">
 	<div class="carousel-inner">
