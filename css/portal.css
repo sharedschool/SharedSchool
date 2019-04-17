@@ -100,7 +100,7 @@
 	vertical-align: middle;
 }
 
-table#categories {
+table#categories, table#inventory, table#inventory-catalog {
 	border-collapse: collapse;
 	width: 100%;
 }
@@ -120,4 +120,17 @@ table#categories td h6 {
 
 table#categories td:first-child {
 	border-left: none;
+}
+
+table#inventory-catalog th, table#inventory-catalog td {
+	border: 1px solid gray;
+}
+
+table#inventory {
+	margin-top: 15px;
+	padding: 5px;
+}
+
+td.filters {
+	vertical-align: top;
 }

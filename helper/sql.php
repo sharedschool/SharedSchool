@@ -48,15 +48,15 @@
 		}
 		return $conn;
 	}
-	function getQuery($query){
+	function connQuery($query){
 		$conn = newConn();
 		$sql = $query;
 		$result = $conn->query($sql);
 		$results = [];
 		if ($result){
-			if ($result->num_rows > 0) {
+			if (mysqli_num_rows($result) > 0) {
 				// output data of each row
-				while($row = $result->fetch_assoc()) {
+				while($row = mysqli_fetch_assoc($result)) {
 					array_push($results, $row);
 				}
 			}

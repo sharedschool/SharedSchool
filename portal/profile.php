@@ -15,7 +15,13 @@
 <!-- Navigation bar -->
 <?php include '../helper/portal_navbar.php'; ?>
 
+<?php
+	include '../helper/sql.php';
+	$data = connQuery('SELECT * FROM Accounts WHERE Email="' . $_SESSION['email'] . '"');
+?>
+
 Here's you profile, <?php echo $_SESSION['name']; ?>.
+
 
 </body>
 </html>

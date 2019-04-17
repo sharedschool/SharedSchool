@@ -30,7 +30,8 @@
 				Explore
 				</a>
 				<ul class="dropdown-menu main-menu" aria-labelledby="navbarDropdown">
-					<li class="dropright">
+					<!-- 
+<li class="dropright">
 						<a class="dropdown-item dropdown-toggle" href="/portal/explore.php">Browse <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a class="dropdown-item submenu-item">Add/Request items</a></li>
@@ -39,9 +40,11 @@
 							<li><a class="dropdown-item submenu-item">Browse network</a></li>
 						</ul>
 					</li>
+ -->
+					<li><a class="dropdown-item" href="/portal/explore.php">Browse</a></li>
 					<li><a class="dropdown-item" href="/portal/inventory.php">Inventory</a></li>
-					<li><div class="dropdown-divider"></div></li>
-					<li><a class="dropdown-item" href="#">Enrollment</a></li>
+<!-- 					<li><div class="dropdown-divider"></div></li> -->
+<!-- 					<li><a class="dropdown-item" href="#">Enrollment</a></li> -->
 				</ul>
 			</li>
 			<li class="nav-item dropdown">
