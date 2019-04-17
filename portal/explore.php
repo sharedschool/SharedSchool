@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Profile | SharedSchool</title>
+	<title>Explore | SharedSchool</title>
 	<?php include '../helper/includes.php'; ?>
 	<link rel="stylesheet" type="text/css" href="/css/portal.css" />
 	<script type="text/javascript" src="/js/portal.js"></script>
@@ -22,13 +22,61 @@
 			<img src="/img/explore-landing.png" class="d-block w-100" alt="...">
 			<div class="carousel-caption d-none d-md-block landing-content">
 				<p><h1>Find the educational materials you need.</h1></p>
-				<p>
-					<form>
-						<div class="form-group">
-							<input type="text" class="form-control" id="searchbox" placeholder="Password">
+				<div class="search-container">
+					<form action="/portal/search.php" method="GET">
+						<div class="form-group inner-addon right-addon">
+							<span class="glyphicon glyphicon-search"></span>
+							<input type="text" name="query" class="form-control" id="searchbox" placeholder="Search for anything" />
+						</div>
+						<div class="search-filters">
+						
+							<div class="form-group">
+								<select name="price-range" class="form-control" id="priceRangeSelect">
+									<option selected disabled value="NULL">Price Range</option>
+									<option value="0-99">$0 to $99</option>
+									<option value="100-499">$100 to $499</option>
+									<option value="500-1000">$500 to $1000</option>
+									<option value=">1000">&gt; $1000</option>
+									<option value="Any">Any price</option>
+								</select>
+							</div>
+							
+							<div class="form-group">
+								<select name="location" class="form-control" id="locationSelect">
+									<option selected disabled value="NULL">Location</option>
+									<option value="10">Within 10 miles</option>
+									<option value="50">Within 50 miles</option>
+									<option value="100">Within 100 miles</option>
+									<option value="Any">Any distance</option>
+								</select>
+							</div>
+							
+							<div class="form-group">
+								<select name="subject" class="form-control" id="subjectSelect">
+									<option selected disabled value="NULL">Subject</option>
+									<option>Math</option>
+									<option>Science</option>
+									<option>English</option>
+									<option value="Any">Any subject</option>
+								</select>
+							</div>
+							
+							<div class="form-group">
+								<select name="institution" class="form-control" id="institutionSelect">
+									<option selected disabled value="NULL">Institution Type</option>
+									<option>Private</option>
+									<option>Public</option>
+									<option value="Any">Any type</option>
+								</select>
+							</div>
+							
+						</div>
+						
+						<div class="form-group" style="margin-top: 15px;">
+							<button type="submit" class="btn btn-light">Search</button>
 						</div>
 					</form>
-				</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -38,27 +86,30 @@
 	<div>
 		<div class="row justify-content-center">
 			<div class="col-md-10 text">
-				<h1 class="display-4 alignCenter">Anything. Any school. Anytime.</h2>
+				<h1 class="display-4 alignCenter">Browse Categories</h2>
 				<p class="alignCenter">
-					The all-in-one software platform where you can buy, sell, and rent your specialized educational materials,
-					generating extra revenue and saving money in the process.
+					The most popular categories on the portal
 				</p>
-			</div>
-		</div>
-	</div>
-	<div>
-		<div class="row justify-content-center">
-			<div class="col-md-4 deadCenter text">
-				<img class="img-fluid" src="/img/portal-manage-demo.png" width="350">
-			</div>
-			<div class="col-md-6 text">
-				<h2 class="display-4 alignCenter adjustLeft">Manage</h2>
-				<h3 class="alignCenter">your requests and listing</h3>
-				<br/>
-				<p>
-					The Manage portal enables you to look at your status. Blah blah blah and some more blahs.
-				</p>
-				<h4>Explore the manage portal &gt;&gt;</h4>
+				<table id="categories">
+					<tr>
+						<td>
+							<img src="/img/glyph/desktop.png" />
+							<h6>Electronics</h6>
+						</td>
+						<td>
+							<img src="/img/glyph/microscope.png" />
+							<h6>Lab Equipment</h6>
+						</td>
+						<td>
+							<img src="/img/glyph/textbook.png" />
+							<h6>Textbooks</h6>
+						</td>
+						<td>
+							<img src="/img/glyph/microphone.png" />
+							<h6>Entertainment</h6>
+						</td>
+					</tr>
+				</table>
 			</div>
 		</div>
 	</div>

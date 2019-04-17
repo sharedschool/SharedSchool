@@ -37,20 +37,28 @@
 				<p><h3>Learn more:</h3></p>
 				<p>
 					<button type="button" class="btn btn-outline-light btn-lg portal-btn">
-						<img src="/img/glyph/manage.png" />
-						Manage
+						<a href="/portal/manage.php">
+							<img src="/img/glyph/manage.png" />
+							Manage
+						</a>
 					</button>
 					<button type="button" class="btn btn-outline-light btn-lg portal-btn">
-						<img src="/img/glyph/explore.png" />
-						Explore
+						<a href="/portal/explore.php">
+							<img src="/img/glyph/explore.png" />
+							Explore
+						</a>
 					</button>
 					<button type="button" class="btn btn-outline-light btn-lg portal-btn">
+						<a href="/portal/resources.php">
 						<img src="/img/glyph/resources.png" />
 						Resources
+						</a>
 					</button>
 					<button type="button" class="btn btn-outline-light btn-lg portal-btn">
-						<img src="/img/glyph/institution.png" />
-						Profile
+						<a href="/portal/profile.php">
+							<img src="/img/glyph/institution.png" />
+							Profile
+						</a>
 					</button>
 				</p>
 			</div>

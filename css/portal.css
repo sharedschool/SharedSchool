@@ -15,15 +15,24 @@
 	margin: 15px;
 }
 
-.portal-btn > img {
+.portal-btn > a > img {
 	display: block;
 	margin: 0 auto;
 	width: 64px;
 	transition: all 0.5s ease;
 }
 
-.portal-btn:hover > img {
+.portal-btn:hover > a > img {
 	filter: brightness(0%);
+}
+
+.portal-btn:hover > a {
+	color: black;
+}
+
+.portal-btn > a {
+	color: white;
+	text-decoration: none;
 }
 
 #page-content > div {
@@ -39,4 +48,76 @@
 	top: 0;
 	left: 100%;
 	margin-top: -1px;
+}
+
+.submenu-item {
+	cursor: pointer;
+}
+
+.search-container {
+	background: rgba(255,255,255,0.5);
+	padding: 15px;
+}
+
+.search-filters > div.form-group {
+	display: inline;
+}
+
+.search-filters > div.form-group > select {
+	display: inline;
+	max-width: 150px;
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+	position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+	position: absolute;
+	padding: 10px;
+	pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.glyphicon.glyphicon-search {
+	background-image: url('/img/glyph/glyphicons-halflings-12-search@2x.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+}
+
+.right-addon {
+	vertical-align: middle;
+}
+
+table#categories {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table#categories td {
+	border-left: 1px solid gray;
+	text-align: center;
+}
+
+table#categories td img {
+	height: 100px;
+}
+
+table#categories td h6 {
+	font-weight: bold;
+}
+
+table#categories td:first-child {
+	border-left: none;
 }

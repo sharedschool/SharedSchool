@@ -1,7 +1,10 @@
 $(document).ready(function() {
-	$('a.dropdown-submenu').on("click", function(e){
-		$(this).next('ul').toggle();
-		e.stopPropagation();
-		e.preventDefault();
+	$('li.nav-item.dropdown, li.dropright').hover(function(){
+		$(this).find('a.dropdown-toggle').first().next('ul.dropdown-menu').show();
+	}, function(){
+		$(this).find('a.dropdown-toggle').first().next('ul.dropdown-menu').hide();
+	});
+	$('li.nav-item.dropdown a').click(function(){
+		location.href = $(this).attr('href');
 	});
 });

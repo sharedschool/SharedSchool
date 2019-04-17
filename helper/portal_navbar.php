@@ -13,26 +13,35 @@
 			<li class="nav-item">
 				<a class="nav-link" href="/portal/">Portal</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="/portal/manage.php">Manage</a>
-			</li>
 			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				Explore
+				<a class="nav-link dropdown-toggle" href="/portal/manage.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Manage
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="/portal/wishlist.php">My Wish List</a></li>
+					<li><a class="dropdown-item" href="/portal/purchases.php">My Purchases</a></li>
+					<li><a class="dropdown-item" href="/portal/dashboard.php">My Dashboard</a></li>
+					<li><a class="dropdown-item" href="/portal/listings.php">My Product Listing</a></li>
+					<li><a class="dropdown-item" href="/portal/store.php">My Store</a></li>
+				</ul>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="/portal/explore.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Explore
+				</a>
+				<ul class="dropdown-menu main-menu" aria-labelledby="navbarDropdown">
 					<li class="dropright">
-						<a class="dropdown-item dropdown-toggle dropdown-submenu" href="#">Browse <span class="caret"></span></a>
+						<a class="dropdown-item dropdown-toggle" href="/portal/explore.php">Browse <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a class="dropdown-item">Add/Request items</a></li>
-							<li><a class="dropdown-item">Watch list</a></li>
-							<li><a class="dropdown-item">View our suggestions</a></li>
-							<li><a class="dropdown-item">Browse network</a></li>
+							<li><a class="dropdown-item submenu-item">Add/Request items</a></li>
+							<li><a class="dropdown-item submenu-item">Watch list</a></li>
+							<li><a class="dropdown-item submenu-item">View our suggestions</a></li>
+							<li><a class="dropdown-item submenu-item">Browse network</a></li>
 						</ul>
 					</li>
-					<li><a class="dropdown-item" href="#">Inventory</a></li>
-					</li><div class="dropdown-divider"></div></li>
-					</li><a class="dropdown-item" href="#">Enrollment</a></li>
+					<li><a class="dropdown-item" href="/portal/inventory.php">Inventory</a></li>
+					<li><div class="dropdown-divider"></div></li>
+					<li><a class="dropdown-item" href="#">Enrollment</a></li>
 				</ul>
 			</li>
 			<li class="nav-item dropdown">
@@ -41,7 +50,7 @@
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<li><a class="dropdown-item" href="#">Help Center</a></li>
-					</li><a class="dropdown-item" href="#">Blog</a></li>
+					<li><a class="dropdown-item" href="#">Blog</a></li>
 				</ul>
 			</li>
 			<li class="nav-item">
