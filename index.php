@@ -78,28 +78,6 @@
 			</div>
 		</div>
 	</div>
-	<div id="faq">
-		<a class="anchor" name="faq"></a>
-		<div class="row justify-content-center">
-			<div class="col-md-10 text">
-				<h1 class="display-4 alignCenter">FAQ</h1>
-				<h4> Why should I use SharedSchool? </h4>
-				<p> There are many key advantages to using the SharedSchool platform. In summary, if you want to generate revenue and/or save money for your institution, join SharedSchool today! </p>
-				<h4> Who uses SharedSchool? </h4>
-				<p> Educational institutions, namely primary and secondary schools, media centers and libraries currently use SharedSchool. Teachers and administrators are also a part of the SharedSchool network since they are affiliated with their own institution. In the near future, we will provide individual user accounts where anyone can use the SharedSchool platform. </p>
-				<h4> What is the cost of a SharedSchool account? </h4>
-				<p> Nothing! SharedSchool is free. </p>
-				<h4> How does SharedSchool work? </h4>
-				<p> SharedSchool uses novel matching algorithms to correctly identify and optimize the proper listings with requests based on time, availability, and location. Our distribution network will then supply the materials based on these matchings. </p>
-				<h4> How can SharedSchool make and/or save me money? </h4>
-				<p> Many institutions either have surplus materials or need materials. We can generate extra revenue for your school by listing surplus materials onto the SharedSchool platform and connecting them to other schools who need these items. The schools wanting these materials will receive them at a cheaper price because they are typically used and have the option to rent them. </p>
-				<h4> Why is SharedSchool different from other surplus centers? </h4>
-				<p> In general, we provide a lower cost and higher flexibility than our competitors. Currently there doesn’t exist a marketplace and shared economy where institutions can list and request specialized materials on the scale that we do. Additionally, we are working towards social good, aiming to provide institutions with essential materials at a cheaper cost, enabling other schools to gain extra revenue in the process. </p>
-				<br/>
-				<h4 align="center"> More Questions? Click <a href="/faq.php">here</a> to see our full FAQ page </h4>
-			</div>
-		</div>
-	</div>
 	<div id="contact">
 		<a class="anchor" name="contact"></a>
 		<div class="row justify-content-center">
