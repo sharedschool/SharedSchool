@@ -32,10 +32,19 @@
 				<button class="btn btn-primary shadow-sm" id="editProf">Edit Profile</button>
 				<h4 class="card-subtitle text-muted">Teacher at Watchung Hills Regional High School</h4>
 			</div>
-			<div class="w-25">
-				<h5>ⓘ See Contact Info</h5>
-				<h5>Messages</h5>
-				<h5>✓ Follow</h5>
+			<div class="w-25 d-flex flex-column">
+				<button class="btn bg-light border flex-shrink-0 p-2">
+					<h5 class="m-0">ⓘ See Contact Info</h5>
+				</button>
+
+				<button class="btn bg-light border flex-shrink-0 p-2 mt-1 d-flex align-items-center justify-content-center flex-wrap">
+					<img class="actionIcon" src="/img/message_icon.png"/>
+					<h5 class="m-0 ml-1">Messages</h5>
+				</button>
+
+				<button class="btn bg-light border flex-shrink-0 p-2 mt-1">
+					<h5 class="m-0">✓ Follow</h5>
+				</button>
 			</div>
 		</div>
 		<div class="w-100 p-0 d-flex justify-content-center" id="stats">
@@ -68,7 +77,7 @@
 	<div class="card mt-4">
 		<div class="card-header bg-primary text-white text-center h4">John's Listings</div>
 
-		<div class="card-deck p-3">
+		<div class="card-deck px-3 pb-3 d-flex flex-wrap">
 			<div class="card listing">
 				<img class="card-image-top rounded-top" src="/img/boxes.png"/>
 				<div class="card-body p-2">
@@ -95,57 +104,99 @@
 				</div>
 				<div class="card-footer d-flex justify-content-center p-0"><img src="/img/cart.png" width="50" height="50"/></div>
 			</div>
+
+			<div class="card listing">
+				<img class="card-image-top rounded-top" src="/img/boxes.png"/>
+				<div class="card-body p-2">
+					<h4>New Stapler</h4>
+					<h5>$10</h5>
+				</div>
+				<div class="card-footer d-flex justify-content-center p-0"><img src="/img/cart.png" width="50" height="50"/></div>
+			</div>
+
+			<div class="card listing">
+				<img class="card-image-top rounded-top" src="/img/boxes.png"/>
+				<div class="card-body p-2">
+					<h4>New Stapler</h4>
+					<h5>$10</h5>
+				</div>
+				<div class="card-footer d-flex justify-content-center p-0"><img src="/img/cart.png" width="50" height="50"/></div>
+			</div>
+
+			<div class="card listing">
+				<img class="card-image-top rounded-top" src="/img/boxes.png"/>
+				<div class="card-body p-2">
+					<h4>New Stapler</h4>
+					<h5>$10</h5>
+				</div>
+				<div class="card-footer d-flex justify-content-center p-0"><img src="/img/cart.png" width="50" height="50"/></div>
+			</div>
 		</div>
 	</div>
 </div>
 
 <div id="profileRight" class="my-4 mx-3">
+	<!-- Recommendations -->
 	<div class="card">
 		<div class="card-header bg-primary text-white text-center h4">Recommended SharedSchoolers</div>
 
-		<div class="d-flex flex-row mt-3">
-			<img src="/img/logo_icon.png" class="profileImg" width="75px" height="75px">
-			<div class="recBody d-flex flex-column justify-content-center">
-				<h3 class="mb-0">Christina Smith</h3>
-				<h5 class="text-muted mb-0">Teacher at Watchung Hils Regional High School</h5>
+		<a href="#">
+			<div class="d-flex flex-row my-3">
+				<img src="/img/logo_icon.png" class="profileImg" width="75px" height="75px">
+				<div class="recBody d-flex flex-column justify-content-center">
+					<h3 class="mb-0">Christina Smith</h3>
+					<h5 class="text-muted mb-0">Teacher at Watchung Hils Regional High School</h5>
+				</div>
 			</div>
-		</div>
+		</a>
 		
-		<div class="d-flex flex-row mt-3">
-			<img src="/img/logo_icon.png" class="profileImg" width="75px" height="75px">
-			<div class="recBody d-flex flex-column justify-content-center">
-				<h3 class="mb-0">Debbie Jones</h3>
-				<h5 class="text-muted mb-0">Teacher at Plainfield High School</h5>
+		<a href="#">
+			<div class="d-flex flex-row my-3">
+				<img src="/img/logo_icon.png" class="profileImg" width="75px" height="75px">
+				<div class="recBody d-flex flex-column justify-content-center">
+					<h3 class="mb-0">Debbie Jones</h3>
+					<h5 class="text-muted mb-0">Teacher at Plainfield High School</h5>
+				</div>
 			</div>
-		</div>
+		</a>
 
-		<div class="d-flex flex-row my-3"> <!-- The last person requres my-3 instead of mt-3 so that the margin class affects both the top and the bottom instead of just the top -->
-			<img src="/img/logo_icon.png" class="profileImg" width="75px" height="75px">
-			<div class="recBody d-flex flex-column justify-content-center">
-				<h3 class="mb-0">Mike Thomas</h3>
-				<h5 class="text-muted mb-0">Teacher at Ridge Middle School</h5>
+		<a href="#">
+			<div class="d-flex flex-row my-3">
+				<img src="/img/logo_icon.png" class="profileImg" width="75px" height="75px">
+				<div class="recBody d-flex flex-column justify-content-center">
+					<h3 class="mb-0">Mike Thomas</h3>
+					<h5 class="text-muted mb-0">Teacher at Ridge Middle School</h5>
+				</div>
 			</div>
-		</div>
+		</a>
 
 	</div>
 
+
+	<!-- Articles -->
 	<div class="card mt-4">
 		<div class="card-header bg-primary text-white text-center h4">SharedSchool Articles</div>
 
-		<div class="mt-3 ml-4 article">
-			<h2 class="mb-0">The EdTech Atmosphere</h2>
-			<h4 class="text-muted mb-0">Michael Rich</h4>
-		</div>
+		<a href="#">
+			<div class="my-3 ml-4 article">
+				<h2 class="mb-0">The EdTech Atmosphere</h2>
+				<h4 class="text-muted mb-0">Michael Rich</h4>
+			</div>
+		</a>
 
-		<div class="mt-3 ml-4 article">
-			<h2 class="mb-0">Surplus = Revenue</h2>
-			<h4 class="text-muted mb-0">Rohan Kansagra</h4>
-		</div>
+		<a href="#">
+			<div class="my-3 ml-4 article">
+				<h2 class="mb-0">Surplus = Revenue</h2>
+				<h4 class="text-muted mb-0">Rohan Kansagra</h4>
+			</div>
+		</a>
 
-		<div class="my-3 ml-4 article"> <!-- The last article requres my-3 instead of mt-3 so that the margin class affects both the top and the bottom instead of just the top -->
-			<h2 class="mb-0">The Become a SharedSchooler</h2>
-			<h4 class="text-muted mb-0">Peter Linder</h4>
-		</div>
+		<a href="#">
+			<div class="my-3 ml-4 article">
+				<h2 class="mb-0">The Become a SharedSchooler</h2>
+				<h4 class="text-muted mb-0">Peter Linder</h4>
+			</div>
+		</a>
 	</div>
 </div>
 </div>
