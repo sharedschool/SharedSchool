@@ -1,0 +1,45 @@
+#profileLeft {width: 60%;}
+#profileRight {width: 40%;}
+
+#mainProfileImg {
+	margin-top: -50px;
+	margin-left: 50px;
+}
+
+#stats div {
+	width: 22.5%;
+	/* border-right: 1px solid #ccc; */
+	text-align: center;
+}
+#stats h5, .article h2 {
+	color: #72CBED;
+}
+/* #stats div:last-of-type {
+	border-right: none;
+} */
+
+#editProf {
+	display: inline-block;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+.profileImg {
+	background-color: white;
+	border: 2px solid #ccc;
+	border-radius: 50%;
+	margin-left: 20px;
+}
+
+.recBody {
+	margin-left: 20px;
+}
+
+.listing {
+	width: 250px;
+	border: 2px solid #aaa;
+}
+.listing .card-image-top {
+	width: 100%;
+	border-bottom: 1px solid #aaa;
+}

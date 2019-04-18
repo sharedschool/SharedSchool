@@ -15,11 +15,14 @@
 	margin: 15px;
 }
 
+.portal-btn > a, .portal-btn > a > img {
+	transition: all 0.5s ease;
+}
+
 .portal-btn > a > img {
 	display: block;
 	margin: 0 auto;
 	width: 64px;
-	transition: all 0.5s ease;
 }
 
 .portal-btn:hover > a > img {
