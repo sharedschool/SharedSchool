@@ -28,13 +28,13 @@
 		<img src="/img/logo_icon.png" id="mainProfileImg" class="profileImg" width="100px"/>
 		<div class="d-flex" style="margin: 20px 50px;">
 			<div class="w-75">
-				<h1 class="card-title d-inline">John Doe</h1>
+				<h1 class="card-title d-inline"><?=$data[0]['FullName']?></h1>
 				<button class="btn btn-primary shadow-sm" id="editProf">Edit Profile</button>
-				<h4 class="card-subtitle text-muted">Teacher at Watchung Hills Regional High School</h4>
+				<h4 class="card-subtitle text-muted">Teacher at <?=$data[0]['Institution']?></h4>
 			</div>
 			<div class="w-25 d-flex flex-column">
 				<button class="btn bg-light border flex-shrink-0 p-2">
-					<h5 class="m-0">ⓘ See Contact Info</h5>
+					<h5 class="m-0"> See Contact Info</h5>
 				</button>
 
 				<button class="btn bg-light border flex-shrink-0 p-2 mt-1 d-flex align-items-center justify-content-center flex-wrap">
@@ -43,7 +43,7 @@
 				</button>
 
 				<button class="btn bg-light border flex-shrink-0 p-2 mt-1">
-					<h5 class="m-0">✓ Follow</h5>
+					<h5 class="m-0">Follow</h5>
 				</button>
 			</div>
 		</div>
