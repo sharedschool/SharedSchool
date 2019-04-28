@@ -33,6 +33,9 @@ CREATE TABLE `Accounts` (
   `SchoolLevel` tinytext,
   `SchoolType` tinytext,
   `AccountType` int(2) DEFAULT NULL,
+  `Bio` tinytext,
+  `Description` text,
+  `Following` text,
   PRIMARY KEY (`Email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -43,7 +46,7 @@ CREATE TABLE `Accounts` (
 
 LOCK TABLES `Accounts` WRITE;
 /*!40000 ALTER TABLE `Accounts` DISABLE KEYS */;
-INSERT INTO `Accounts` VALUES ('Peter Linder','peterlinder66@gmail.com','$2y$10$gnoVNyk2/8MTleziCGboWuCG.jwoYkT9yXyFuXFfpBObAeynO.lwC','Physics','Peter School of Education',NULL,NULL,NULL,NULL,1);
+INSERT INTO `Accounts` VALUES ('Peter Linder','peterlinder66@gmail.com','$2y$10$gnoVNyk2/8MTleziCGboWuCG.jwoYkT9yXyFuXFfpBObAeynO.lwC','Physics','Peter School of Education',NULL,NULL,NULL,NULL,1,'Fun guy','Physics loving teacher with a passion for cricket',NULL);
 /*!40000 ALTER TABLE `Accounts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -76,7 +79,7 @@ CREATE TABLE `Inventory` (
 
 LOCK TABLES `Inventory` WRITE;
 /*!40000 ALTER TABLE `Inventory` DISABLE KEYS */;
-INSERT INTO `Inventory` VALUES ('peterlinder66@gmail.com',NULL,'Laptop Computer','Chromebook','Samsung Chromebook 3',300.00,'Slightly used','Fast and furious chromebooks','2019-03-24','2019-03-24',3,NULL);
+INSERT INTO `Inventory` VALUES ('peterlinder66@gmail.com',NULL,'Laptop Computer','Chromebook','Samsung Chromebook 3',300.00,'Slightly used','Fast and furious chromebooks','2019-03-24','2019-03-24',3,NULL),('prateek.humane@gmail.com',NULL,'Book Textbook','Textbook','Organic Chemistry 2016',75.00,'Brand new','High school sophomore level orgo chem','2019-04-16','2019-04-16',6,NULL),('peterlinder66@gmail.com',NULL,'Media Entertainment','Headphones','Logitech Headphones',60.00,'Slightly used','Small foldable headphones','2019-01-16','2019-04-16',5,NULL),('mike',NULL,'Book Textbook Physics','Textbook','Banana Physics',15.00,'Brand new','A good book by Adnan','2019-04-17','2019-04-17',25,NULL),('james',NULL,'Entertainment Media','Microphones','Samsung Microphone',50.00,'Tattered','Big bulging microphones for all your audio input needs','2019-04-02','2019-04-17',5,NULL);
 /*!40000 ALTER TABLE `Inventory` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -89,4 +92,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-03-24 14:57:20
+-- Dump completed on 2019-04-27 22:12:03
