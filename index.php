@@ -1,4 +1,7 @@
-<?php session_start(); ?>
+<?php 
+	session_start(); 
+	if (isset($_SESSION['type'])) header('Location: /portal/');
+?>
 <!DOCTYPE html>
 <html>
 <head>
