@@ -22,7 +22,7 @@
 ?>
 
 <div class="d-flex flex-row">
-<div id="profileLeft" class="my-4 mx-3">
+<div id="profileLeft" class="my-4 mx-auto" style="width: 80%;">
 	<div class="card bg-light p-0">
 		<img class="card-image-top rounded-top" src="/img/carousel-1.png" style="height: 150px;"/>
 		<img src="/img/logo_icon.png" id="mainProfileImg" class="profileImg" width="100px"/>
@@ -134,9 +134,9 @@
 		</div>
 	</div>
 </div>
-
+<!--
 <div id="profileRight" class="my-4 mx-3">
-	<!-- Recommendations -->
+	<!-- Recommendations --
 	<div class="card">
 		<div class="card-header bg-primary text-white text-center h4">Recommended SharedSchoolers</div>
 
@@ -173,7 +173,7 @@
 	</div>
 
 
-	<!-- Articles -->
+	<!-- Articles --
 	<div class="card mt-4">
 		<div class="card-header bg-primary text-white text-center h4">SharedSchool Articles</div>
 
@@ -199,7 +199,8 @@
 		</a>
 	</div>
 </div>
-</div>
+-->
 
+</div>
 </body>
 </html>

@@ -26,7 +26,21 @@
 					<form action="/portal/search.php" method="GET">
 						<div class="form-group inner-addon right-addon">
 							<span class="glyphicon glyphicon-search"></span>
-							<input type="text" name="query" class="form-control" id="searchbox" placeholder="Search for anything" />
+							<input type="text" name="query" class="form-control" id="searchbox" placeholder="Search for anything" onkeyup="suggestedResults(this.value)"/>
+							<div class="container" style="position:absolute;padding:0">
+								<div class="row" style="border-style: solid;/*border-color: rgb(206, 212, 218);*/border-width: 1px; background-color:white; color: rgb(240,66,100);height:calc(1.5em + .75rem + 2px);margin:0;">
+									<div class="col text-left my-auto">math</div>
+									<div class="col text-right mx-3 my-auto">category</div>
+								</div>	
+								<div class="row" style="border-style: solid;/*border-color: rgb(206, 212, 218);*/border-width: 1px; background-color:white; color: rgb(28,277,87);height:calc(1.5em + .75rem + 2px);margin:0;">
+									<div class="col text-left my-auto">microscope</div>
+									<div class="col text-right mx-3 my-auto">product</div>
+								</div>	
+								<div class="row" style="border-style: solid;/*border-color: rgb(206, 212, 218);*/border-width: 1px; background-color:white; color: rgb(3,158,252);height:calc(1.5em + .75rem + 2px);margin:0;">
+									<div class="col text-left my-auto">Microscope RB50</div>
+									<div class="col text-right mx-3 my-auto">model</div>
+								</div>	
+							</div>	
 						</div>
 						<div class="search-filters">
 						
