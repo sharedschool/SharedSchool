@@ -75,7 +75,7 @@
 	</div>
 
 	<div class="card mt-4">
-		<div class="card-header bg-primary text-white text-center h4">John's Listings</div>
+		<div class="card-header bg-primary text-white text-center h4"><?=$data[0]['FullName']?>'s Listings</div>
 
 		<div class="card-deck px-3 pb-3 d-flex flex-wrap">
 			<div class="card listing">
