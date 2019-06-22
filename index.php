@@ -12,6 +12,12 @@
 </head>
 <body data-spy="scroll" data-target="#navbar-top" data-offset="0" >
 
+<?php
+	if (isset($_GET['demo'])){
+		echo '<div class="alert alert-success" role="alert">Demo requested!</div>';
+	}
+?>
+
 <!-- Navigation bar -->
 <?php include './helper/navbar.php'; ?>
 
@@ -88,14 +94,18 @@
 				<h1 class="display-4 alignCenter">Contact Us</h1>
 				<p align="center">
 					If you have any questions or would like to request a demo,
-					please contact us at <b><a href="mailto:sharedschool1@gmail.com" class="email">
-						sharedschool1@gmail.com
+					please contact us at <b><a href="mailto:contact@sharedschool.co" class="email">
+						contact@sharedschool.co
 					</a></b>.
 				</p>
 			</div>
 		</div>
 	</div>
 </div>
+
+<?php
+	include('./helper/demo_modal.php');
+?>
 
 </body>
 </html>
