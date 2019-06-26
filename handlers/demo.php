@@ -10,11 +10,11 @@ $_POST['institution'] . '\nEmail: ' . $_POST['email'];
 		$msg .= '\n\nMessage: ' . $_POST['message'];
 	}
 	$msg = wordwrap($msg,70);
-	$msg = str_replace('\n', '<br/>', $msg);
-	$msg = '<html><body>' . $msg . '</body></html>';
+	//$msg = str_replace('\n', '<br/>', $msg);
+	//$msg = '<html><body>' . $msg . '</body></html>';
 	$headers = 'From: ' . $from;
 	$headers .= 'MIME-Version: 1.0' . '\r\n';
-	$headers .= 'Content-type:text/html;charset=UTF-8' . '\r\n';
+	$headers .= 'Content-type:text/plain;charset=UTF-8' . '\r\n';
 	mail($to,$subject,$msg,$headers);
 	
 	header('Location: /?demo=1');
