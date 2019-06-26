@@ -14,7 +14,7 @@
 
 <?php
 	if (isset($_GET['demo'])){
-		echo '<div class="alert alert-success" role="alert">Demo requested!</div>';
+		echo '<div class="alert alert-success" role="alert" id="demo-alert" style="text-align:center">Demo requested!</div>';
 	}
 ?>
 

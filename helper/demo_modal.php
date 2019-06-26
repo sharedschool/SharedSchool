@@ -9,18 +9,22 @@
 			</div>
 			<div class="modal-body" style="text-align:center">
 				<div class="demo-form">
-					<form method="post" action="/handlers/demo.php">
+					<form id="demo-form" method="post" action="/handlers/demo.php">
 						<div class="form-group">
 							<label for="name">Full Name</label>
-							<input type="text" class="form-control" name="name" aria-describedby="nameHelp" placeholder="Full name">
+							<input type="text" class="form-control" id="demo-name" name="name" aria-describedby="nameHelp" placeholder="Full name">
 						</div>
 						<div class="form-group">
 							<label for="institution">Institution</label>
-							<input type="text" class="form-control" name="institution" aria-describedby="instHelp" placeholder="Institution">
+							<input type="text" class="form-control" id="demo-inst" name="institution" aria-describedby="instHelp" placeholder="Institution">
 						</div>
 						<div class="form-group">
 							<label for="email">Email address</label>
-							<input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Email address">
+							<input type="email" class="form-control" id="demo-email" name="email" aria-describedby="emailHelp" placeholder="Email address">
+						</div>
+						<div class="form-group">
+							<label for="demo-message">Message (optional)</label>
+							<textarea class="form-control" name="message" id="demo-message" rows="3"></textarea>
 						</div>
 						<button type="submit" class="btn btn-primary">Request Demo Now</button>
 					</form>
