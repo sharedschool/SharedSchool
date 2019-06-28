@@ -3,68 +3,39 @@
 ?>
 <nav id="navbar-top" class="navbar sticky-top navbar-expand-lg navbar-dark blue" >
 	<a class="navbar-brand" href="/">
-		<img src="/img/logo_text.png" height="35" class="d-inline-block align-top" alt="SharedSchool">
+		<img src="/img/logo_text.png" height="40" class="d-inline-block align-top" alt="SharedSchool">
 	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav mr-auto">
+		<ul class="navbar-nav ml-auto">
 			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle smoothscroll" href="/#about" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				About
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				PLATFORM
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<li><a class="dropdown-item" href="#">Shared School</a></li>
-					<li><a class="dropdown-item" href="#">The Team</a></li>
+					<li><a class="dropdown-item" href="#">Platform Overview</a></li>
+					<li><a class="dropdown-item" href="#">Use Cases</a></li>
 				</ul>
 			</li>
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				Product
+				RESOURCES
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<li><a class="dropdown-item" href="#" style="padding: 10px">
-						<div style="display:flex;flex-direction:row;">
-							<img src="/img/new_logo_icon.png" height="50" width="50" style="margin-right:15px">
-							<div>
-								<h4 style="color:#5fc3f0">SharedSchool Platform</h1>
-								Buy, sell, and rent your educational materials
-							</div>
-						</div>
-					</a></li>
-					<li><a class="dropdown-item" href="#" style="padding: 10px">
-						<div style="display:flex;flex-direction:row;">
-							<img src="/img/boxes.png" height="50" width="55" style="margin-right:10px">
-							<div>
-								<h4 style="color:#5fc3f0">Inventory Management</h4>
-								Smart Inventory Management
-							</div>
-						</div>
-					</a></li>
-					<li><a class="dropdown-item" href="#" style="padding: 10px">
-						<div style="display:flex;flex-direction:row;">
-							<img src="/img/enrollment_pred.png" height="50" width="50" style="margin-right:15px">
-							<div>
-								<h4 style="color:#5fc3f0">Enrollment Prediction</h4>
-								Predict future enrollements
-							</div>
-						</div>
-					</a></li>
-				</ul>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				Resources
-				</a>
-				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<li><a class="dropdown-item" href="#">Help Center</a></li>
 					<li><a class="dropdown-item" href="#">Blog</a></li>
-					<li><a class="dropdown-item" href="/faq.php">FAQ</a></li>
+					<li><a class="dropdown-item" href="#">FAQ</a></li>
 				</ul>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link smoothscroll" href="/#contact">Contact Us</a>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				COMPANY
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="#">About Us</a></li>
+					<li><a class="dropdown-item" href="#">Contact Us</a></li>
+				</ul>
 			</li>
 			<?php
 				if (isset($_SESSION['type'])){
