@@ -27,7 +27,7 @@
 <div id="page-content">
 	<div>
 		<div class="row justify-content-center">
-			<div class="col-md-5 text">
+			<div class="col-md-5 text deadCenter">
 				<h1 class="blue-header">Make use of your school's surplus</h1>
 				<div class="break"></div>
 				<p class="gray-headline">
@@ -36,7 +36,7 @@
 				<div class="break"></div>
 				<button class="btn btn-primary btn-lg demo-btn" type="button">Request a Demo</button>
 			</div>
-			<div class="col-md-5 deadCenter text" style="height:500px">
+			<div class="col-md-5 deadCenter text" style="min-height:500px">
 				<img class="img-fluid" src="/img/home-1.png" width="550">
 			</div>
 		</div>
@@ -44,7 +44,7 @@
 	
 	<div>
 		<div class="row justify-content-center">
-			<div class="col-md-5 text">
+			<div class="col-md-5 text deadCenter" style="min-height:500px">
 				<h1 class="blue-header">See how SharedSchool works for your school</h1>
 				<div class="break"></div>
 				<p class="gray headline">
@@ -102,11 +102,14 @@
 			<div class="col">
 				<div class="break"></div>
 				<div class="break"></div>
+				<div class="break"></div>
+				<div class="break"></div>
 				<img src="/img/home-identify.png" />
 				<h6>Identify</h6>
 				<p>Find excess materials you don't need.</p>
 			</div>
 			<div class="col">
+				<div class="break"></div>
 				<div class="break"></div>
 				<img src="/img/home-list.png" />
 				<h6>List</h6>
@@ -119,11 +122,14 @@
 			</div>
 			<div class="col">
 				<div class="break"></div>
+				<div class="break"></div>
 				<img src="/img/home-connect.png" />
 				<h6>Connect</h6>
 				<p>Discuss product logistics with the school you have been matched with.</p>
 			</div>
 			<div class="col">
+				<div class="break"></div>
+				<div class="break"></div>
 				<div class="break"></div>
 				<div class="break"></div>
 				<img src="/img/home-complete.png" />
