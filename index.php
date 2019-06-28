@@ -30,7 +30,7 @@
 			<div class="col-md-5 text deadCenter">
 				<h1 class="blue-header">Make use of your school's surplus</h1>
 				<div class="break"></div>
-				<p class="gray-headline">
+				<p class="gray headline">
 					A modern EdTech platform that directly connects schools to each other based on your needs and surplus. Maximize what your surplus can do for you!
 				</p>
 				<div class="break"></div>
