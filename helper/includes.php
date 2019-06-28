@@ -8,3 +8,4 @@
 <script type="text/javascript" src="/js/popper.min.js"></script>
 <script type="text/javascript" src="/bootstrap-4.3.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/demo.js"></script>

@@ -27,9 +27,6 @@
 <div id="page-content">
 	<div>
 		<div class="row justify-content-center">
-			<div class="col-md-5 deadCenter text">
-				<img class="img-fluid" src="/img/home-1.png" width="550">
-			</div>
 			<div class="col-md-5 text">
 				<h1 class="blue-header">Make use of your school's surplus</h1>
 				<div class="break"></div>
@@ -38,6 +35,9 @@
 				</p>
 				<div class="break"></div>
 				<button class="btn btn-primary btn-lg demo-btn" type="button">Request a Demo</button>
+			</div>
+			<div class="col-md-5 deadCenter text" style="height:500px">
+				<img class="img-fluid" src="/img/home-1.png" width="550">
 			</div>
 		</div>
 	</div>
@@ -134,9 +134,21 @@
 	</div>
 </div>
 
+<div class="footer blue">
+	<div class="row justify-content-center">
+		<div class="col-md-10 text alignCenter">
+			<div class="break"></div>
+			<h3 class="display-4 alignCenter" style="font-size:32px">Ready to take advantage of your surplus?</h3>
+			<div class="break"></div>
+			<button class="btn btn-primary btn-lg demo-btn" type="button">Request a Demo</button>
+			<div class="break"></div>
+			<hr style="border: 1px solid #253b80" />
+		</div>
+	</div>
+</div>
+
 <?php
 	include('./helper/footer.php');
-	include('./helper/demo_modal.php');
 ?>
 
 </body>

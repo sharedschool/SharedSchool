@@ -1,5 +1,6 @@
 <?php
 	$page = basename($_SERVER["SCRIPT_FILENAME"], '.php');
+	$dir = __DIR__ . DIRECTORY_SEPARATOR;
 ?>
 <nav id="navbar-top" class="navbar sticky-top navbar-expand-lg navbar-dark blue" >
 	<a class="navbar-brand" href="/">
@@ -15,8 +16,8 @@
 				PLATFORM
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<li><a class="dropdown-item" href="#">Platform Overview</a></li>
-					<li><a class="dropdown-item" href="#">Use Cases</a></li>
+					<li><a class="dropdown-item" href="/pages/platform.php">Platform Overview</a></li>
+					<li><a class="dropdown-item" href="/pages/use.php">Use Cases</a></li>
 				</ul>
 			</li>
 			<li class="nav-item dropdown">
@@ -24,8 +25,8 @@
 				RESOURCES
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<li><a class="dropdown-item" href="#">Blog</a></li>
-					<li><a class="dropdown-item" href="#">FAQ</a></li>
+					<li><a class="dropdown-item" href="/pages/blog.php">Blog</a></li>
+					<li><a class="dropdown-item" href="/pages/faq.php">FAQ</a></li>
 				</ul>
 			</li>
 			<li class="nav-item dropdown">
@@ -33,8 +34,8 @@
 				COMPANY
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<li><a class="dropdown-item" href="#">About Us</a></li>
-					<li><a class="dropdown-item" href="#">Contact Us</a></li>
+					<li><a class="dropdown-item" href="/pages/about.php">About Us</a></li>
+					<li><a class="dropdown-item" href="/pages/contact.php">Contact Us</a></li>
 				</ul>
 			</li>
 			<?php
@@ -62,7 +63,7 @@
 
 <?php
 	if (!isset($_SESSION['type'])){
-		include('./helper/signup_modal.php');
-		include('./helper/login_modal.php');
+		include($dir . 'signup_modal.php');
+		include($dir . 'login_modal.php');
 	}
 ?>

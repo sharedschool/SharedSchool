@@ -1,6 +1,11 @@
 body {
 	font-family: Quicksand, Roboto, sans-serif;
 	position: relative;
+	background: #3a53a4;
+}
+
+#page-content {
+	background: white;
 }
 
 .blue-header {
@@ -24,6 +29,10 @@ body {
 .nav-btn, .nav-item {
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+.dropdown-toggle::after {
+	display:none;
 }
 
 .deadCenter {
@@ -65,3 +74,7 @@ div.break {
 
 .signup-btn.signup-institution { background-color: #2247b3; border: 1px solid #17277a; }
 .signup-btn.signup-institution:hover { background-color: #17277a; }
+
+
+.demo-btn { background: #6bcce0; border: none; }
+.demo-btn:hover { background: #64bbd6; }

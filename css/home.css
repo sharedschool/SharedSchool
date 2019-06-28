@@ -46,16 +46,3 @@ p.for-p {
 	font-weight: bold;
 	font-size: 20px;
 }
-
-/* 
-.demo-btn, .demo-btn:hover {
-	border: 3px solid #57C4C3;
-}
-
-.demo-btn:hover {
-	color: #57C4C3;
-}
- */
- 
-.demo-btn { background: #6bcce0; border: none; }
-.demo-btn:hover { background: #64bbd6; }
