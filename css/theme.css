@@ -3,6 +3,24 @@ body {
 	position: relative;
 }
 
+.blue-header {
+	color: #3a53a4;
+	font-weight: bold;
+}
+
+.blue {
+	background: #3a53a4;
+	color: white;
+}
+
+.gray {
+	color: #636261;
+}
+
+.headline {
+	font-size: 20px;
+}
+
 .nav-btn, .nav-item {
 	margin-left: 5px;
 	margin-right: 5px;
@@ -17,6 +35,18 @@ body {
 
 .alignCenter {
 	text-align: center;
+}
+
+div.break {
+	height: 24px;
+}
+
+.footer .nav-link.active {
+	color: white;
+}
+
+.footer .nav-link {
+	color: #bbbaba;
 }
 
 /* Signup modal */

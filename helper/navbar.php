@@ -1,7 +1,7 @@
 <?php
 	$page = basename($_SERVER["SCRIPT_FILENAME"], '.php');
 ?>
-<nav id="navbar-top" class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #0f0e2e;">
+<nav id="navbar-top" class="navbar sticky-top navbar-expand-lg navbar-dark blue" >
 	<a class="navbar-brand" href="/">
 		<img src="/img/logo_text.png" height="35" class="d-inline-block align-top" alt="SharedSchool">
 	</a>

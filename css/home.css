@@ -8,18 +8,46 @@
 
 #page-content > div {
 	padding: 15px;
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 #page-content > div:nth-child(even) {
-	background: #F5F5F5;
+	background: #fdfdfd;
+}
+
+
+h6.gray {
+	margin-bottom: 0;
+	font-size: 16px;
 }
 
 #faqAccordion > .collapse {
 	width: 100%;
 }
 
+img.for-icon {
+	height: 100px;
+}
+
+p.for-p {
+	font-size: 14px;
+}
+
+.process > div.col {
+	text-align: center;
+}
+
+.process img {
+	height: 120px;
+	margin-bottom: 10px;
+}
+
+.process h6 {
+	color: #47b1e4;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* 
 .demo-btn, .demo-btn:hover {
 	border: 3px solid #57C4C3;
 }
@@ -27,3 +55,7 @@
 .demo-btn:hover {
 	color: #57C4C3;
 }
+ */
+ 
+.demo-btn { background: #6bcce0; border: none; }
+.demo-btn:hover { background: #64bbd6; }

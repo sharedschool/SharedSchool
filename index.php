@@ -23,87 +23,119 @@
 
 <div id="home"><a class="anchor" name="home"></a></div>
 
-<!-- Homepage carousel -->
-<div id="carouselCaptions" class="carousel slide" data-ride="carousel">
-	<ol class="carousel-indicators">
-		<li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
-		<li data-target="#carouselCaptions" data-slide-to="1"></li>
-		<li data-target="#carouselCaptions" data-slide-to="2"></li>
-	</ol>
-	<div class="carousel-inner">
-		<div class="carousel-item active">
-			<img src="/img/carousel-1.png" class="d-block w-100" alt="...">
-			<div class="carousel-caption d-none d-md-block">
-				<p>We enable easy access to specialized materials at a moment's notice.</p>
-				<button class="btn btn-outline-light btn-lg demo-btn" type="button">Request Demo</button>
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img src="/img/carousel-2.png" class="d-block w-100" alt="...">
-			<div class="carousel-caption d-none d-md-block">
-				<p>We help build long-term relationships between institutions.</p>
-				<button class="btn btn-outline-light btn-lg demo-btn" type="button">Request Demo</button>
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img src="/img/carousel-3.png" class="d-block w-100" alt="...">
-			<div class="carousel-caption d-none d-md-block">
-				<p>We empower institutions to find new sources of revenue through a shared economy model.</p>
-				<button class="btn btn-outline-light btn-lg demo-btn" type="button">Request Demo</button>
-			</div>
-		</div>
-	</div>
-	<a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-	</a>
-	<a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	</a>
-</div>
-
 <!-- Page content -->
 <div id="page-content">
-	<div id="about">
-		<a class="anchor" name="about"></a>
+	<div>
 		<div class="row justify-content-center">
-			<div class="col-md-4 deadCenter text">
-				<img class="img-fluid" src="/img/about.png" width="450">
+			<div class="col-md-5 deadCenter text">
+				<img class="img-fluid" src="/img/home-1.png" width="550">
 			</div>
-			<div class="col-md-6 text">
-				<h1 class="display-4 alignCenter adjustLeft">About</h1>
-				<p>
-					SharedSchool is a software platform that allows institutions such as primary
-					and secondary schools to buy, rent, and sell specialized educational materials.
-					Our flexible network is beneficial towards any institution. Simply put, we generate
-					revenue streams from your surplus materials and provide cheap materials that anyone
-					can rent or buy. Paired with novel matching algorithms, we create a convenient and
-					unique marketplace where all the work is done for you! All you have to do is list or request
-					your desired materials. We are dedicated to connect schools who have surplus materials
-					to schools needing materials, simultaneously forming a new shared economy.
-					Sign up for SharedSchool today!
+			<div class="col-md-5 text">
+				<h1 class="blue-header">Make use of your school's surplus</h1>
+				<div class="break"></div>
+				<p class="gray-headline">
+					A modern EdTech platform that directly connects schools to each other based on your needs and surplus. Maximize what your surplus can do for you!
 				</p>
+				<div class="break"></div>
+				<button class="btn btn-primary btn-lg demo-btn" type="button">Request a Demo</button>
 			</div>
 		</div>
 	</div>
-	<div id="contact">
-		<a class="anchor" name="contact"></a>
+	
+	<div>
 		<div class="row justify-content-center">
-			<div class="col-md-10 text">
-				<h1 class="display-4 alignCenter">Contact Us</h1>
-				<p align="center">
-					If you have any questions or would like to request a demo,
-					please contact us at <b><a href="mailto:contact@sharedschool.co" class="email">
-						contact@sharedschool.co
-					</a></b>.
+			<div class="col-md-5 text">
+				<h1 class="blue-header">See how SharedSchool works for your school</h1>
+				<div class="break"></div>
+				<p class="gray headline">
+					Empowering public and private schools through a shared economy model.
 				</p>
+				<div class="break"></div>
+				<button class="btn btn-primary btn-lg demo-btn" type="button">Request a Demo</button>
+			</div>
+			<div class="col-md-5 deadCenter text">
+				<div class="row justify-content-center">
+					<div class="col">
+						<img src="/img/home-social.png" class="for-icon"/>
+						<h6 class="gray">FOR</h6>
+						<h5 class="blue-header">Social Good</h5>
+						<p class="gray for-p">
+							Directly help other schools obtain necessary educational materials from your surplus.
+						</p>
+					</div>
+					<div class="col">
+						<img src="/img/home-revenue.png" class="for-icon"/>
+						<h6 class="gray">FOR</h6>
+						<h5 class="blue-header">Generating Revenue</h5>
+						<p class="gray for-p">
+							Generate revenue for your school through our buy/sell or rent feature.
+						</p>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col">
+						<img src="/img/home-resources.png" class="for-icon"/>
+						<h6 class="gray">FOR</h6>
+						<h5 class="blue-header">Acquiring Resources</h5>
+						<p class="gray for-p">
+							Find the specialized educational materials you need for your school.
+						</p>
+					</div>
+					<div class="col">
+						<img src="/img/home-space.png" class="for-icon"/>
+						<h6 class="gray">FOR</h6>
+						<h5 class="blue-header">Freeing Up Space</h5>
+						<p class="gray for-p">
+							Quickly free up storage for your school using our easy and flexible platform.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div>
+		<div class="row justify-content-center">
+			<h1 class="blue-header">The SharedSchool Process</h1>
+		</div>
+		<div class="row justify-content-center process">
+			<div class="col">
+				<div class="break"></div>
+				<div class="break"></div>
+				<img src="/img/home-identify.png" />
+				<h6>Identify</h6>
+				<p>Find excess materials you don't need.</p>
+			</div>
+			<div class="col">
+				<div class="break"></div>
+				<img src="/img/home-list.png" />
+				<h6>List</h6>
+				<p>Directly input your product details online or with our mobile app.</p>
+			</div>
+			<div class="col">
+				<img src="/img/home-match.png" />
+				<h6>Match</h6>
+				<p>Connect directly with schools who are in need of your products.</p>
+			</div>
+			<div class="col">
+				<div class="break"></div>
+				<img src="/img/home-connect.png" />
+				<h6>Connect</h6>
+				<p>Discuss product logistics with the school you have been matched with.</p>
+			</div>
+			<div class="col">
+				<div class="break"></div>
+				<div class="break"></div>
+				<img src="/img/home-complete.png" />
+				<h6>Complete</h6>
+				<p>Finalize details and decide on shipment method.</p>
 			</div>
 		</div>
 	</div>
 </div>
 
 <?php
+	include('./helper/footer.php');
 	include('./helper/demo_modal.php');
 ?>
 
