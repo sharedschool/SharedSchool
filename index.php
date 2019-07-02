@@ -1,5 +1,5 @@
 <?php 
-	//include('./helper/launcher.php');
+	include('./helper/launcher.php');
 	if (isset($_SESSION['type'])) header('Location: /portal/');
 ?>
 <!DOCTYPE html>
