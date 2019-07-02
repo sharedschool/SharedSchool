@@ -10,7 +10,7 @@
 		</div>
 	</div>
 	<div class="row justify-content-left">
-		<div class="col-md-2 text">
+		<div class="col-md-2 offset-md-1 text">
 			<ul class="nav flex-column">
 				<li class="nav-item">
 					<a class="nav-link active" href="#">Platform</a>

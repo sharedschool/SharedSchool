@@ -40,8 +40,11 @@
 				<img class="img-fluid" src="/img/home-1.png" width="550">
 			</div>
 		</div>
+		<div class="break"></div>
+		<div class="break"></div>
+		<div class="break"></div>
 	</div>
-	
+
 	<div>
 		<div class="row justify-content-center">
 			<div class="col-md-5 text deadCenter" style="height: 600px; min-height:450px; max-width: 40.0%">
@@ -135,7 +138,7 @@
 				<div class="break"></div>
 				<img src="/img/home-connect.png" />
 				<h6>Connect</h6>
-				<p>Discuss product logistics with the school you have been matched with.</p>
+				<p>Discuss potential transactions with the school you have been matched with.</p>
 			</div>
 			<div class="col">
 				<div class="break"></div>
