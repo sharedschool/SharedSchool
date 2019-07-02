@@ -2,6 +2,7 @@ body {
 	font-family: Quicksand, Roboto, sans-serif;
 	position: relative;
 	background: #3a53a4;
+	width: 100%;
 }
 
 #page-content {
@@ -54,12 +55,16 @@ div.break {
 	height: 24px;
 }
 
-.footer .nav-link.active {
+.footer .nav-link.active, .footer .nav-link:hover {
 	color: white;
 }
 
 .footer .nav-link {
 	color: #bbbaba;
+}
+
+hr {
+	border: 1px solid #636261;
 }
 
 /* Signup modal */
@@ -81,4 +86,9 @@ div.break {
 
 
 .demo-btn { background: #6bcce0; border: none; }
-.demo-btn:hover { background: #64bbd6; }
+.demo-btn:hover { background: #3999ad; }
+
+.dropdown-item:hover {
+	color: #3a53a4;
+	background: white;
+}
