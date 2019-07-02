@@ -11,9 +11,13 @@
 }
 
 #page-content > div:nth-child(even) {
-	background: #fdfdfd;
+	background: #fafafa;
 }
 
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
 h6.gray {
 	margin-bottom: 0;

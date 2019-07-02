@@ -1,5 +1,5 @@
 <?php 
-	include('./helper/launcher.php');
+	//include('./helper/launcher.php');
 	if (isset($_SESSION['type'])) header('Location: /portal/');
 ?>
 <!DOCTYPE html>
@@ -44,7 +44,7 @@
 	
 	<div>
 		<div class="row justify-content-center">
-			<div class="col-md-5 text deadCenter" style="height: 600px; min-height:450px">
+			<div class="col-md-5 text deadCenter" style="height: 600px; min-height:450px; max-width: 40.0%">
 				<h1 class="blue-header">See how SharedSchool works for your school</h1>
 				<div class="break"></div>
 				<p class="gray headline">
@@ -53,7 +53,7 @@
 				<div class="break"></div>
 				<button class="btn btn-primary btn-lg demo-btn" type="button" style="align-self:flex-start">Request a Demo</button>
 			</div>
-			<div class="col-md-5 deadCenter text">
+			<div class="col-md-6 deadCenter text">
 				<div class="row justify-content-center">
 					<div class="col">
 						<img src="/img/home-social.png" class="for-icon"/>
@@ -72,6 +72,8 @@
 						</p>
 					</div>
 				</div>
+				<div class="break"></div>
+				<div class="break"></div>
 				<div class="row justify-content-center">
 					<div class="col">
 						<img src="/img/home-resources.png" class="for-icon"/>
