@@ -36,18 +36,19 @@
 				<div class="break"></div>
 				<button class="btn btn-primary btn-lg demo-btn" type="button" style="align-self:flex-start">Request a Demo</button>
 			</div>
-			<div class="col-md-5 deadCenter text" style="min-height:500px">
+			<div class="col-md-6 deadCenter text" style="min-height:550px">
 				<img class="img-fluid" src="/img/home-1.png" width="550">
 			</div>
+			<div class="break"></div>
+		<div class="break"></div>
+		<div class="break"></div>
+		<div class="break"></div>
 		</div>
-		<div class="break"></div>
-		<div class="break"></div>
-		<div class="break"></div>
 	</div>
 
 	<div>
 		<div class="row justify-content-center">
-			<div class="col-md-5 text deadCenter" style="height: 600px; min-height:450px; max-width: 40.0%">
+			<div class="col-md-5 text deadCenter" style="height: 600px; min-height:450px">
 				<h1 class="blue-header">See how SharedSchool works for your school</h1>
 				<div class="break"></div>
 				<p class="gray headline">
@@ -99,7 +100,7 @@
 		</div>
 	</div>
 	
-	<div>
+	<div class="deadCenter" style="min-height: 600px; /*padding-top: 50px*/">
 		<div class="row justify-content-center">
 			<h1 class="blue-header">The SharedSchool Process</h1>
 		</div>
@@ -152,8 +153,6 @@
 				<p>Finalize details and decide on shipment method.</p>
 			</div>
 		</div>
-		<div class="break"></div>
-		<div class="break"></div>
 	</div>
 </div>
 

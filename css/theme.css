@@ -1,8 +1,9 @@
 body {
 	font-family: Quicksand, Roboto, sans-serif;
 	position: relative;
-	background: #3a53a4;
+/* 	background: #3a53a4; */
 	width: 100%;
+	overflow-x: hidden;
 }
 
 #page-content {

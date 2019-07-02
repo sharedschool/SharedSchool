@@ -19,7 +19,7 @@
 					<a class="nav-link" href="/pages/platform.php">Platform Overview</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/pages/use.php">Use Cases</a>
+					<a class="nav-link coming-soon" href="/pages/use.php">Use Cases</a>
 				</li>
 			</ul>
 		</div>
@@ -29,7 +29,7 @@
 					<a class="nav-link active" href="#">Resources</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/pages/blog.php">Blog</a>
+					<a class="nav-link coming-soon" href="/pages/blog.php">Blog</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="/pages/faq.php">FAQ</a>

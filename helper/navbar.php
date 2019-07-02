@@ -17,7 +17,7 @@
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<li><a class="dropdown-item" href="/pages/platform.php">Platform Overview</a></li>
-					<li><a class="dropdown-item" href="/pages/use.php">Use Cases</a></li>
+					<li><a class="dropdown-item coming-soon" href="/pages/use.php">Use Cases</a></li>
 				</ul>
 			</li>
 			<li class="nav-item dropdown">
@@ -25,7 +25,7 @@
 				RESOURCES
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<li><a class="dropdown-item" href="/pages/blog.php">Blog</a></li>
+					<li><a class="dropdown-item coming-soon" href="/pages/blog.php">Blog</a></li>
 					<li><a class="dropdown-item" href="/pages/faq.php">FAQ</a></li>
 				</ul>
 			</li>
@@ -66,5 +66,6 @@
 	if (!isset($_SESSION['type'])){
 		include($dir . 'signup_modal.php');
 		include($dir . 'login_modal.php');
+		include($dir . 'soon_modal.php');
 	}
 ?>

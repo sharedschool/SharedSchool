@@ -52,7 +52,12 @@ $(document).ready(function() {
 	}, function(){
 		$(this).find('a.dropdown-toggle').first().next('ul.dropdown-menu').hide();
 	});
-	$('li.nav-item.dropdown a').click(function(){
+	$('li.nav-item.dropdown a:not(.coming-soon)').click(function(){
 		location.href = $(this).attr('href');
+	});
+	
+	$('.coming-soon').click(function(event){
+		event.preventDefault();
+		$('#soonModal').modal('show');
 	});
 });
