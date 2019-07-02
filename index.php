@@ -1,5 +1,5 @@
 <?php 
-	session_start(); 
+	include('./helper/launcher.php');
 	if (isset($_SESSION['type'])) header('Location: /portal/');
 ?>
 <!DOCTYPE html>
@@ -104,6 +104,8 @@
 				<div class="break"></div>
 				<div class="break"></div>
 				<div class="break"></div>
+				<div class="break"></div>
+				<div class="break"></div>
 				<img src="/img/home-identify.png" />
 				<h6>Identify</h6>
 				<p>Find excess materials you don't need.</p>
@@ -111,16 +113,22 @@
 			<div class="col">
 				<div class="break"></div>
 				<div class="break"></div>
+				<div class="break"></div>
+				<div class="break"></div>
 				<img src="/img/home-list.png" />
 				<h6>List</h6>
 				<p>Directly input your product details online or with our mobile app.</p>
 			</div>
 			<div class="col">
+				<div class="break"></div>
+				<div class="break"></div>
 				<img src="/img/home-match.png" />
 				<h6>Match</h6>
 				<p>Connect directly with schools who are in need of your products.</p>
 			</div>
 			<div class="col">
+				<div class="break"></div>
+				<div class="break"></div>
 				<div class="break"></div>
 				<div class="break"></div>
 				<img src="/img/home-connect.png" />
@@ -132,11 +140,15 @@
 				<div class="break"></div>
 				<div class="break"></div>
 				<div class="break"></div>
+				<div class="break"></div>
+				<div class="break"></div>
 				<img src="/img/home-complete.png" />
 				<h6>Complete</h6>
 				<p>Finalize details and decide on shipment method.</p>
 			</div>
 		</div>
+		<div class="break"></div>
+		<div class="break"></div>
 	</div>
 </div>
 

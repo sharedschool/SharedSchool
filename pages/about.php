@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php
+	include('../helper/launcher.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
