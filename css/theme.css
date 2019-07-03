@@ -12,7 +12,7 @@ body {
 }
  */
 
-.blue-header {
+.blue-header, .modal-title {
 	color: #3a53a4;
 	font-weight: bold;
 }
@@ -77,20 +77,23 @@ hr {
 
 /* Signup modal */
 
+.modal-title {
+	width: 100%;
+	text-align: center;
+}
+
 .signup-btn, .signup-btn:hover {
 	color: white;
 	min-width: 100px;
 	min-height: 100px;
+	border: none;
 }
 
-.signup-btn.signup-teacher { background-color: #3fcbe0; border: 1px solid #2da7cc; }
-.signup-btn.signup-teacher:hover { background-color: #2da7cc; }
+.signup-btn.signup-admin { background-color: #3fbbec; }
+.signup-btn.signup-admin:hover { background-color: #25aade; }
 
-.signup-btn.signup-administrator { background-color: #3aa5f7; border: 1px solid #3275c2; }
-.signup-btn.signup-administrator:hover { background-color: #3275c2; }
-
-.signup-btn.signup-institution { background-color: #2247b3; border: 1px solid #17277a; }
-.signup-btn.signup-institution:hover { background-color: #17277a; }
+.signup-btn.signup-user { background-color: #2f66ce; }
+.signup-btn.signup-user:hover { background-color: #2652a4; }
 
 
 .demo-btn, .green-btn { background: #6bcce0; border: none; }

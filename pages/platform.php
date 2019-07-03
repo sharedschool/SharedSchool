@@ -73,15 +73,15 @@
 		<div class="row justify-content-center">
 			<div class="col-md-4 text">
 				<img src="/img/platform-donate.png" width="150" />
-				<h3 class="gray headline">Donate</h3>
+				<h3 class="gray">Donate</h3>
 			</div>
 			<div class="col-md-4 text">
 				<img src="/img/platform-buy-sell.png" width="150" style="background: #38c7f4" />
-				<h3 class="gray headline">Buy/Sell</h3>
+				<h3 class="gray">Buy/Sell</h3>
 			</div>
 			<div class="col-md-4 text">
 				<img src="/img/platform-rent.png" width="150" />
-				<h3 class="gray headline">Rent</h3>
+				<h3 class="gray">Rent</h3>
 			</div>
 		</div>
 	</div>
@@ -90,24 +90,29 @@
 	<div class="break"></div>
 	<div class="row justify-content-center odd">
 		<div class="col-md-10 text deadCenter" style="text-align:center; min-height: 300px">
-			<h4 class="green-header">DONATE</h4>
+			<div class="break"></div>
+			<h3 class="green-header">DONATE</h3>
 			<h2 class="blue-header">Build long-term relationships with schools through donations</h2>
-			<p class="gray headline">
+			<div class="break"></div>
+			<p class="gray headline" style="width: 50%">
 				Free up space and help primary and secondary schools receive necessary educational materials.
 			</p>
+			<div class="break"></div>
 			<button class="btn btn-primary btn-lg green-btn coming-soon" type="button">Learn More</button>
 			<div class="break"></div>
 		</div>
 	</div>
 	<div class="row justify-content-center">
 		<div class="col-md-7 text deadCenter">
-			<h4 class="green-header" style="align-self: flex-start">BUY/SELL</h4>
+			<h3 class="green-header" style="align-self: flex-start">BUY/SELL</h3>
 			<h2 class="blue-header" style="align-self: flex-start">Make direct transactions between schools with no third party fees</h2>
+			<div class="break"></div>
 			<p class="gray headline">
 				Buy and sell your educational surplus, find the resources you need at a low price,
 				and utilize your surplus to generate revenue.
 			</p>
-			<button class="btn btn-primary btn-lg green-btn coming-soon" type="button">Learn More</button>
+			<div class="break"></div>
+			<button class="btn btn-primary btn-lg green-btn coming-soon" type="button" style="align-self:flex-start">Learn More</button>
 			<div class="break"></div>
 		</div>
 		<div class="col-md-3 deadCenter text" style="min-height: 400px">
@@ -119,12 +124,14 @@
 			<img class="img-fluid" src="/img/platform-computer.png" width="150">
 		</div>
 		<div class="col-md-7 text deadCenter">
-			<h4 class="green-header" style="align-self: flex-start">RENT</h4>
+			<h3 class="green-header" style="align-self: flex-start">RENT</h3>
 			<h2 class="blue-header" style="align-self: flex-start">Recur revenue with our novel rent feature</h2>
+			<div class="break"></div>
 			<p class="gray headline">
 				Rent out materials that are only used periodically and provide other schools with affordable resources.
 			</p>
-			<button class="btn btn-primary btn-lg green-btn coming-soon" type="button">Learn More</button>
+			<div class="break"></div>
+			<button class="btn btn-primary btn-lg green-btn coming-soon" type="button" style="align-self:flex-start">Learn More</button>
 			<div class="break"></div>
 		</div>
 	</div>

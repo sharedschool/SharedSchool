@@ -9,21 +9,19 @@ $(document).ready(function() {
 			scrollTop: height
 		}, 500);
 	});
+	// Popover init
+	$('[data-toggle="popover"]').popover();
 	// Sign up functionality
 	$("#signup-btn").click(function(){
 		// Show sign up modal
 		$("#signupModal").modal('show');
-		$(".signup-btn.signup-teacher").click(function(){
+		$(".signup-btn.signup-admin").click(function(){
 			$("#signupModal").modal('hide');
-			$("#signupModal-teacher").modal('show');
+			$("#signupModal-admin").modal('show');
 		});
-		$(".signup-btn.signup-administrator").click(function(){
+		$(".signup-btn.signup-user").click(function(){
 			$("#signupModal").modal('hide');
-			$("#signupModal-administrator").modal('show');
-		});
-		$(".signup-btn.signup-institution").click(function(){
-			$("#signupModal").modal('hide');
-			$("#signupModal-institution").modal('show');
+			$("#signupModal-user").modal('show');
 		});
 	});
 	// Sign up form
@@ -32,7 +30,8 @@ $(document).ready(function() {
 	$(".signup-form > form").on("submit", function(event){
 		event.preventDefault();
 		// TODO: Validate form input
-		$(this)[0].submit();
+		alert("Account signup coming soon.");
+		//$(this)[0].submit();
 	});
 	
 	// Login functionality

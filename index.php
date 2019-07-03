@@ -31,7 +31,7 @@
 				<h1 class="blue-header">Make use of your school's surplus</h1>
 				<div class="break"></div>
 				<p class="gray headline">
-					Modern EdTech platform that directly connects schools to each other based on your needs and surplus. Maximize what your surplus can do for you and find the educational resources you need!
+					Modern EdTech platform that directly connects schools to each other based on your needs and surplus. Scale your surplus and find the educational resources you need!
 				</p>
 				<div class="break"></div>
 				<button class="btn btn-primary btn-lg demo-btn" type="button" style="align-self:flex-start">Request a Demo</button>
