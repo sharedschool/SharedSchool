@@ -6,12 +6,19 @@ body {
 	overflow-x: hidden;
 }
 
+/* 
 #page-content {
 	background: white;
 }
+ */
 
 .blue-header {
 	color: #3a53a4;
+	font-weight: bold;
+}
+
+.green-header {
+	color: #78ced3;
 	font-weight: bold;
 }
 
@@ -86,8 +93,8 @@ hr {
 .signup-btn.signup-institution:hover { background-color: #17277a; }
 
 
-.demo-btn { background: #6bcce0; border: none; }
-.demo-btn:hover { background: #3999ad; }
+.demo-btn, .green-btn { background: #6bcce0; border: none; }
+.demo-btn:hover, .green-btn:hover { background: #3999ad; }
 
 .dropdown-item:hover {
 	color: #3a53a4;
