@@ -10,23 +10,27 @@
 			<div class="modal-body" style="text-align:center">
 				<div class="signup-1">
 					<p>Sign up as:</p>
-					<div>
-						<button type="button" class="btn signup-btn signup-admin"
-							data-container="body"
-							data-toggle="popover"
-							data-placement="bottom"
-							data-content="Detailed description of admin accounts coming soon."
-							data-trigger="hover">
-							Admin
-						</button>
-						<button type="button" class="btn signup-btn signup-user"
-							data-container="body"
-							data-toggle="popover"
-							data-placement="bottom"
-							data-content="Detailed description of user accounts coming soon."
-							data-trigger="hover">
-							User
-						</button>
+					<div class="row justify-content-center">
+						<div class="col-md-4">
+							<button type="button" class="btn signup-btn signup-admin"
+								data-container="body"
+								data-toggle="popover"
+								data-placement="bottom"
+								data-content="Detailed description of admin accounts coming soon."
+								data-trigger="hover">
+								Admin
+							</button>
+						</div>
+						<div class="col-md-4">
+							<button type="button" class="btn signup-btn signup-user"
+								data-container="body"
+								data-toggle="popover"
+								data-placement="bottom"
+								data-content="Detailed description of user accounts coming soon."
+								data-trigger="hover">
+								User
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -130,7 +134,7 @@
 									?
 								</button>
 							</label>
-							<input type="text" class="form-control" name="institution" placeholder="e.g. Metropolis High School">
+							<input type="text" class="form-control" name="institution" placeholder="e.g. FJ6KX1">
 						</div>
 						<div class="form-group">
 							<label for="institution">Position</label>

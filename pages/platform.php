@@ -23,11 +23,13 @@
 			text-align: center;
 		}
 		.col-md-4 img {
-			background: #78ced3;
 			border-radius: 25px;
 		}
 		.odd {
 			background: #fafafa;
+		}
+		.odd, .even {
+			min-height: 460px;
 		}
 	</style>
 	<script type="text/javascript">
@@ -72,24 +74,24 @@
 	<div class="deadCenter">
 		<div class="row justify-content-center">
 			<div class="col-md-4 text">
-				<img src="/img/platform-donate.png" width="150" />
-				<h3 class="gray">Donate</h3>
+				<img src="/img/platform-donate.png" width="150" style="background: #f26661" />
+				<h3>Donate</h3>
 			</div>
 			<div class="col-md-4 text">
-				<img src="/img/platform-buy-sell.png" width="150" style="background: #38c7f4" />
-				<h3 class="gray">Buy/Sell</h3>
+				<img src="/img/platform-buy-sell.png" width="150" style="background: #f8b449" />
+				<h3>Buy/Sell</h3>
 			</div>
 			<div class="col-md-4 text">
-				<img src="/img/platform-rent.png" width="150" />
-				<h3 class="gray">Rent</h3>
+				<img src="/img/platform-rent.png" width="150" style="background: #89cc99" />
+				<h3>Rent</h3>
 			</div>
 		</div>
 	</div>
 	<div class="break"></div>
 	<div class="break"></div>
 	<div class="break"></div>
-	<div class="row justify-content-center odd">
-		<div class="col-md-10 text deadCenter" style="text-align:center; min-height: 300px">
+	<div class="row justify-content-center odd" style="text-align:center">
+		<div class="col-md-10 text deadCenter">
 			<div class="break"></div>
 			<h3 class="green-header">DONATE</h3>
 			<h2 class="blue-header">Build long-term relationships with schools through donations</h2>
@@ -102,7 +104,7 @@
 			<div class="break"></div>
 		</div>
 	</div>
-	<div class="row justify-content-center">
+	<div class="row justify-content-center even">
 		<div class="col-md-7 text deadCenter">
 			<h3 class="green-header" style="align-self: flex-start">BUY/SELL</h3>
 			<h2 class="blue-header" style="align-self: flex-start">Make direct transactions between schools with no third party fees</h2>
