@@ -75,6 +75,10 @@ hr {
 	border: 1px solid #636261;
 }
 
+.odd {
+	background: #fafafa;
+}
+
 /* Signup modal */
 
 .modal-title {

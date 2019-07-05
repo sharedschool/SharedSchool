@@ -19,14 +19,12 @@
 			font-weight: bold;
 		}
 		.col-md-4 {
-			width: 360px;
+			width: 300px;
 			text-align: center;
 		}
 		.col-md-4 img {
 			border-radius: 25px;
-		}
-		.odd {
-			background: #fafafa;
+			width: 140px;
 		}
 		.odd, .even {
 			min-height: 460px;
@@ -54,7 +52,7 @@
 <?php include '../helper/navbar.php'; ?>
 
 <div id="page-content">
-	<div style="height: 315px">
+	<div style="height: 325px">
 		<div class="row justify-content-center">
 			<div class="col-md-8 text">
 				<div class="break"></div>
@@ -74,15 +72,15 @@
 	<div class="deadCenter">
 		<div class="row justify-content-center">
 			<div class="col-md-4 text">
-				<img src="/img/platform-donate.png" width="150" style="background: #f26661" />
+				<img src="/img/platform-donate.png" style="background: #f26661" />
 				<h3>Donate</h3>
 			</div>
 			<div class="col-md-4 text">
-				<img src="/img/platform-buy-sell.png" width="150" style="background: #f8b449" />
+				<img src="/img/platform-buy-sell.png" style="background: #f8b449" />
 				<h3>Buy/Sell</h3>
 			</div>
 			<div class="col-md-4 text">
-				<img src="/img/platform-rent.png" width="150" style="background: #89cc99" />
+				<img src="/img/platform-rent.png" style="background: #89cc99" />
 				<h3>Rent</h3>
 			</div>
 		</div>

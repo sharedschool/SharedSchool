@@ -115,7 +115,7 @@
 				<div class="signup-form signup-user">
 					<form>
 						<div class="form-group">
-							<label for="name">Full nNme</label>
+							<label for="name">Full Name</label>
 							<input type="text" class="form-control" name="fullname" placeholder="e.g. John Doe">
 						</div>
 						<div class="form-group">
