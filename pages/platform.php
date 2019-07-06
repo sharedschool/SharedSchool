@@ -11,7 +11,7 @@
 		}
 		body {
 			background-image: url('/img/platform-bg.png');
-			background-size: 1280px;
+			background-size: 100% 529px;
 			background-repeat: repeat-x;
 		}
 		h3, h1, h4 {
