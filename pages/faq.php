@@ -11,8 +11,9 @@
 <?php include '../helper/navbar.php'; ?>
 
 <!-- FAQ questions -->
-<div id="page-content" style="padding: 15px;">
-	<h1 class="blue-header alignCenter">FAQ</h1>
+<div class="d-flex justify-content-center">
+<div id="page-content" class="col-12 col-md-10 col-lg-8 col-xl-6 p-3 justify-center">
+	<h1 class="blue-header text-center">FAQ</h1>
 	<h4> Why should I use SharedSchool? </h4>
 	<p> There are many key advantages to using the SharedSchool platform. In summary, if you want to generate revenue and/or save money for your institution, join SharedSchool today! </p>
 	<h4> Who uses SharedSchool? </h4>
@@ -35,6 +36,7 @@
 	<p> We will keep your material listed on the SharedSchool platform until you decide you want to take it off. Requests are dynamic and constantly change, so odds are that eventually you will be able to sell your material. </p>
 	<h4> Why is it important to become a part of a shared economy? </h4>
 	<p> Shared economy’s connect buyers and sellers by the means of sharing a good or service. Becoming a part of one makes it easier for you to receive these materials by increasing flexibility and lowering the cost. </p>
+</div>
 </div>
 
 <?php include '../helper/footer.php'; ?>
