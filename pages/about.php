@@ -76,7 +76,7 @@
 					<img src="https://media.licdn.com/dms/image/C4E03AQErE_UTEx0Qgw/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=um1OsaO2Hpf0QAVs93AjwYAFBohFZqmIwwxcWaPRQ8w" class="card-img-top" alt="Michael Rich" />
 					<div class="card-body">
 						<h5 class="card-title">Michael Rich</h5>
-						<p class="card-text gray">CEO & Co-Founder</p>
+						<p class="card-text gray">Co-CEO & Co-Founder</p>
 						<!-- <p class="card-text">Miggy's his name and startups are his game.</p> -->
 						<a href="mailto:michaelrich@sharedschool.co" class="btn-link">michaelrich@sharedschool.co</a>
 					</div>
@@ -87,7 +87,7 @@
 					<img src="https://media.licdn.com/dms/image/C4D03AQFciQCHEqSEQA/profile-displayphoto-shrink_800_800/0?e=1567641600&v=beta&t=DUp4eB8HbmFYyGQaJNrTHCqb0R3JZtAs0E9DAv2wK-4" class="card-img-top" alt="Neelay Trivedi" />
 					<div class="card-body">
 						<h5 class="card-title">Neelay Trivedi</h5>
-						<p class="card-text gray">CEO & Co-Founder</p>
+						<p class="card-text gray">Co-CEO & Co-Founder</p>
 						<!-- <p class="card-text">A born pioneer with a flair for mentioning his six-pack.</p> -->
 						<a href="mailto:neelaytrivedi@sharedschool.co" class="btn-link">neelaytrivedi@sharedschool.co</a>
 					</div>
@@ -108,7 +108,7 @@
 		<div class="row justify-content-center row-bottom">
 			<div class="column">
 				<div class="card">
-					<img src="https://picsum.photos/256" class="card-img-top" alt="Rohan Kansagra" />
+					<img src="https://media.licdn.com/dms/image/C4E03AQHTGCD6UI2pvg/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=qgln2A9DsgJgEAJIE5PvsEUVWnsj7U0BQVkYW4Wjv5I" class="card-img-top" alt="Rohan Kansagra" />
 					<div class="card-body">
 						<h5 class="card-title">Rohan Kansagra</h5>
 						<p class="card-text gray">VP of Business Development</p>
