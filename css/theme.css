@@ -55,10 +55,6 @@ body {
 	flex-direction: column;
 }
 
-.alignCenter {
-	text-align: center;
-}
-
 div.break {
 	height: 24px;
 }

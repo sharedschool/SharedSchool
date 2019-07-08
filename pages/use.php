@@ -11,7 +11,7 @@
 <?php include '../helper/navbar.php'; ?>
 
 <div id="page-content" style="padding: 15px;">
-	<h1 class="blue-header alignCenter">Use Cases</h1>
+	<h1 class="blue-header text-center">Use Cases</h1>
 	<p align="center">
 		Coming soon.
 	</p>
