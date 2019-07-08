@@ -26,38 +26,30 @@
 <!-- Page content -->
 <div id="page-content">
 	<div>
-		<div class="row justify-content-center">
-			<div class="col-md-5 text deadCenter">
+		<div class="row justify-content-center my-md-4">
+			<div class="col-md-5 text text-center text-md-left deadCenter">
 				<h1 class="blue-header">Make use of your school's surplus</h1>
-				<div class="break"></div>
 				<p class="gray headline">
 					Modern EdTech platform that directly connects schools to each other based on your needs and surplus. Scale your surplus and find the educational resources you need!
 				</p>
-				<div class="break"></div>
-				<button class="btn btn-primary btn-lg demo-btn" type="button" style="align-self:flex-start">Request a Demo</button>
+				<button class="btn btn-primary btn-lg demo-btn align-self-center align-self-md-start" type="button" style="align-self:flex-start">Request a Demo</button>
 			</div>
-			<div class="col-md-6 deadCenter text" style="min-height:550px">
+			<div class="col-md-6 deadCenter text my-4">
 				<img class="img-fluid" src="/img/home-1.png" width="550">
 			</div>
-			<div class="break"></div>
-		<div class="break"></div>
-		<div class="break"></div>
-		<div class="break"></div>
 		</div>
 	</div>
 
-	<div>
+	<div class="py-md-4">
 		<div class="row justify-content-center">
-			<div class="col-md-5 text deadCenter" style="height: 600px; min-height:450px">
+			<div class="col-md-5 text text-center text-md-left deadCenter mb-4 mb-md-0">
 				<h1 class="blue-header">See how SharedSchool works for your school</h1>
-				<div class="break"></div>
 				<p class="gray headline">
 					Empowering public and private schools through a shared economy model.
 				</p>
-				<div class="break"></div>
-				<button class="btn btn-primary btn-lg demo-btn" type="button" style="align-self:flex-start">Request a Demo</button>
+				<button class="btn btn-primary btn-lg demo-btn align-self-center align-self-md-start" type="button" style="align-self:flex-start">Request a Demo</button>
 			</div>
-			<div class="col-md-6 deadCenter text">
+			<div class="col-12 col-md-6 deadCenter text">
 				<div class="row justify-content-center">
 					<div class="col">
 						<img src="/img/home-social.png" class="for-icon"/>
@@ -76,8 +68,6 @@
 						</p>
 					</div>
 				</div>
-				<div class="break"></div>
-				<div class="break"></div>
 				<div class="row justify-content-center">
 					<div class="col">
 						<img src="/img/home-resources.png" class="for-icon"/>
@@ -100,54 +90,44 @@
 		</div>
 	</div>
 	
-	<div class="deadCenter" style="min-height: 600px; /*padding-top: 50px*/">
-		<div class="row justify-content-center">
-			<h1 class="blue-header">The SharedSchool Process</h1>
+	<div class="deadCenter py-md-4 px-md-2">
+		<div class="row mb-4 mb-md-3">
+			<h1 class="blue-header text-center">The SharedSchool Process</h1>
 		</div>
 		<div class="row justify-content-center process">
-			<div class="col">
-				<div class="break"></div>
-				<div class="break"></div>
-				<div class="break"></div>
-				<div class="break"></div>
-				<div class="break"></div>
-				<div class="break"></div>
+			<div class="col-12 col-md text-center">
+				<div class="break d-none d-md-block"></div>
+				<div class="break d-none d-md-block"></div>
+				<div class="break d-none d-md-block"></div>
+				<div class="break d-none d-md-block"></div>
 				<img src="/img/home-identify.png" />
 				<h6>Identify</h6>
 				<p>Find excess materials you don't need.</p>
 			</div>
-			<div class="col">
-				<div class="break"></div>
-				<div class="break"></div>
-				<div class="break"></div>
-				<div class="break"></div>
+			<div class="col-12 col-md text-center">
+				<div class="break d-none d-md-block"></div>
+				<div class="break d-none d-md-block"></div>
 				<img src="/img/home-list.png" />
 				<h6>List</h6>
 				<p>Directly input your product details online or with our mobile app.</p>
 			</div>
-			<div class="col">
-				<div class="break"></div>
-				<div class="break"></div>
+			<div class="col-12 col-md text-center">
 				<img src="/img/home-match.png" />
 				<h6>Match</h6>
 				<p>Connect directly with schools who are in need of your products.</p>
 			</div>
-			<div class="col">
-				<div class="break"></div>
-				<div class="break"></div>
-				<div class="break"></div>
-				<div class="break"></div>
+			<div class="col-12 col-md text-center">
+				<div class="break d-none d-md-block"></div>
+				<div class="break d-none d-md-block"></div>
 				<img src="/img/home-connect.png" />
 				<h6>Connect</h6>
 				<p>Discuss potential transactions with the school you have been matched with.</p>
 			</div>
-			<div class="col">
-				<div class="break"></div>
-				<div class="break"></div>
-				<div class="break"></div>
-				<div class="break"></div>
-				<div class="break"></div>
-				<div class="break"></div>
+			<div class="col-12 col-md text-center">
+				<div class="break d-none d-md-block"></div>
+				<div class="break d-none d-md-block"></div>
+				<div class="break d-none d-md-block"></div>
+				<div class="break d-none d-md-block"></div>
 				<img src="/img/home-complete.png" />
 				<h6>Complete</h6>
 				<p>Finalize details and decide on shipment method.</p>
