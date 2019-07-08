@@ -54,11 +54,17 @@
 	<div class="row justify-content-center">
 		<img src="/img/logo_icon.png" height="100" />
 	</div>
-	<div class="row justify-content-center">
+	<div class="row justify-content-center text-center">
 		<p>
 			&copy; 2019 SharedSchool, LLC. All rights reserved. Privacy Policy.
 			<a href="https://www.linkedin.com/company/sharedschool" target="_blank">
 				<img src="/img/linkedin.png" height="24px" style="border-radius:100%" />
+			</a>
+			<a href="https://www.facebook.com/SharedSchool/" target="_blank">
+				<img src="/img/facebook.png" height="24px" style="border-radius:100%" />
+			</a>
+			<a href="https://www.instagram.com/sharedschoolteam/" target="_blank">
+				<img src="/img/instagram.png" height="24px" style="border-radius:100%; background-color:white;" />
 			</a>
 		</p>
 	</div>
