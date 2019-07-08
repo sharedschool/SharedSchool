@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	if (!isset($_SESSION['type'])) header('Location: /');
+	//if (!isset($_SESSION['type'])) header('Location: /');
 ?>
 <!DOCTYPE html>
 <html>
@@ -27,7 +27,7 @@
 						<div class="form-group inner-addon right-addon">
 							<span class="glyphicon glyphicon-search"></span>
 							<input type="text" name="query" class="form-control" id="searchbox" placeholder="Search for anything" onkeyup="suggestedResults(this.value)"/>
-							<div class="container" style="position:absolute;padding:0">
+							<!--<div class="container" style="position:absolute;padding:0">
 								<div class="row" style="border-style: solid;/*border-color: rgb(206, 212, 218);*/border-width: 1px; background-color:white; color: rgb(240,66,100);height:calc(1.5em + .75rem + 2px);margin:0;">
 									<div class="col text-left my-auto">math</div>
 									<div class="col text-right mx-3 my-auto">category</div>
@@ -40,7 +40,7 @@
 									<div class="col text-left my-auto">Microscope RB50</div>
 									<div class="col text-right mx-3 my-auto">model</div>
 								</div>	
-							</div>
+							</div>-->
 						</div>
 						<div class="search-filters">
 						
@@ -76,6 +76,17 @@
 							</div>
 							
 							<div class="form-group">
+								<select name="category" class="form-control" id="categorySelect">
+									<option selected disabled value="NULL">Category</option>
+									<option>Electronics</option>
+									<option>Lab Equipment</option>
+									<option>Textbooks</option>
+									<option>Entertainment</option>
+									<option value="Any">Any category</option>
+								</select>
+							</div>
+							
+							<div class="form-group">
 								<select name="institution" class="form-control" id="institutionSelect">
 									<option selected disabled value="NULL">Institution Type</option>
 									<option>Private</option>
@@ -91,39 +102,6 @@
 						</div>
 					</form>
 				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div id="page-content">
-	<div>
-		<div class="row justify-content-center">
-			<div class="col-md-10 text">
-				<h1 class="display-4 alignCenter">Browse Categories</h2>
-				<p class="alignCenter">
-					The most popular categories on the portal
-				</p>
-				<table id="categories">
-					<tr>
-						<td>
-							<img src="/img/glyph/desktop.png" />
-							<h6>Electronics</h6>
-						</td>
-						<td>
-							<img src="/img/glyph/microscope.png" />
-							<h6>Lab Equipment</h6>
-						</td>
-						<td>
-							<img src="/img/glyph/textbook.png" />
-							<h6>Textbooks</h6>
-						</td>
-						<td>
-							<img src="/img/glyph/microphone.png" />
-							<h6>Entertainment</h6>
-						</td>
-					</tr>
-				</table>
 			</div>
 		</div>
 	</div>
