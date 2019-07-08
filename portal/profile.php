@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	if (!isset($_SESSION['type'])) header('Location: /');
+	//if (!isset($_SESSION['type'])) header('Location: /');
 ?>
 <!DOCTYPE html>
 <html>

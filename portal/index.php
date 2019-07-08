@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	if (!isset($_SESSION['type'])) header('Location: /');
+	//if (!isset($_SESSION['type'])) header('Location: /');
 ?>
 <!DOCTYPE html>
 <html>
@@ -28,70 +28,31 @@
 ?>
 
 <!-- Landing portal thing -->
-<div id="carouselPortal" class="carousel slide" data-ride="carousel">
-	<div class="carousel-inner">
-		<div class="carousel-item active">
-			<img src="/img/portal-landing.png" class="d-block w-100" alt="...">
-			<div class="carousel-caption d-none d-md-block landing-content">
-				<p><h1>Hi <?php echo $_SESSION['name']; ?>! How can we help you today?</h1></p>
-				<p><h3>Learn more:</h3></p>
-				<p>
-					<button type="button" class="btn btn-outline-light btn-lg portal-btn">
-						<a href="/portal/manage.php">
-							<img src="/img/glyph/manage.png" />
-							Manage
-						</a>
-					</button>
-					<button type="button" class="btn btn-outline-light btn-lg portal-btn">
-						<a href="/portal/explore.php">
-							<img src="/img/glyph/explore.png" />
-							Explore
-						</a>
-					</button>
-					<button type="button" class="btn btn-outline-light btn-lg portal-btn">
-						<a href="/portal/resources.php">
-						<img src="/img/glyph/resources.png" />
-						Resources
-						</a>
-					</button>
-					<button type="button" class="btn btn-outline-light btn-lg portal-btn">
-						<a href="/portal/profile.php">
-							<img src="/img/glyph/institution.png" />
-							Profile
-						</a>
-					</button>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-
 <div id="page-content">
-	<div>
-		<div class="row justify-content-center">
-			<div class="col-md-10 text">
-				<h1 class="display-4 alignCenter">Anything. Any school. Anytime.</h2>
-				<p class="alignCenter">
-					The all-in-one software platform where you can buy, sell, and rent your specialized educational materials,
-					generating extra revenue and saving money in the process.
-				</p>
-			</div>
+	<div class="row justify-content-center">
+		<div class="col-md-1">
+			<img src="https://picsum.photos/100/100" />
+		</div>
+		<div class="col-md-2">
+			<h2 class="blue-header">John Doe</h2>
+			<h3 class="gray headline">Institution: WHRHS</h3>
+			<p class="gray">Account Type: Admin</p>
+		</div>
+		<div class="col-md-2">
+			<button class="btn btn-primary btn-lg green-btn coming-soon" type="button">Edit Profile</button>
+		</div>
+		<div class="col-md-2">
+			<button class="btn btn-primary btn-lg green-btn coming-soon" type="button">Manage Listings</button>
+		</div>
+		<div class="col-md-2">
+			<button class="btn btn-primary btn-lg green-btn coming-soon" type="button">Add Listing</button>
 		</div>
 	</div>
-	<div>
-		<div class="row justify-content-center">
-			<div class="col-md-4 deadCenter text">
-				<img class="img-fluid" src="/img/portal-manage-demo.png" width="350">
-			</div>
-			<div class="col-md-6 text">
-				<h2 class="display-4 alignCenter adjustLeft">Manage</h2>
-				<h3 class="alignCenter">your requests and listing</h3>
-				<br/>
-				<p>
-					The Manage portal enables you to look at your status. Blah blah blah and some more blahs.
-				</p>
-				<h4>Explore the manage portal &gt;&gt;</h4>
-			</div>
+	<div class="row justify-content-center">
+		<div class="col-md-10">
+			<h1 class="blue-header deadCenter">
+				Welcome John Doe! How can we help you today?
+			</h1>
 		</div>
 	</div>
 </div>
