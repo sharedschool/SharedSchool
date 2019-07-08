@@ -1,8 +1,8 @@
 <div class="footer blue">
 	<div class="row justify-content-center">
-		<div class="col-md-10 text alignCenter">
+		<div class="col-md-10 text text-center">
 			<div class="break"></div>
-			<h3 class="display-4 alignCenter" style="font-size:32px">Ready to take advantage of your surplus?</h3>
+			<h3 class="display-4 text-center" style="font-size:32px">Ready to take advantage of your surplus?</h3>
 			<div class="break"></div>
 			<button class="btn btn-primary btn-lg demo-btn" type="button">Request a Demo</button>
 			<div class="break"></div>
