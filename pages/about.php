@@ -37,7 +37,7 @@
 			<h1 class="blue-header">Our Vision</h1>
 			<div class="break"></div>
 			<p class="gray">
-				<b>Vision statement placeholder!</b> SharedSchool is a software platform that allows institutions such as primary
+				SharedSchool is a software platform that allows institutions such as primary
 				and secondary schools to buy, rent, and sell specialized educational materials.
 				Our flexible network is beneficial towards any institution. Simply put, we generate
 				revenue streams from your surplus materials and provide cheap materials that anyone
@@ -60,16 +60,7 @@
 			<h1 class="blue-header">What We Do</h1>
 			<div class="break"></div>
 			<p class="gray">
-				<b>What we do placeholder!</b>
-				SharedSchool is a software platform that allows institutions such as primary
-				and secondary schools to buy, rent, and sell specialized educational materials.
-				Our flexible network is beneficial towards any institution. Simply put, we generate
-				revenue streams from your surplus materials and provide cheap materials that anyone
-				can rent or buy. Paired with novel matching algorithms, we create a convenient and
-				unique marketplace where all the work is done for you! All you have to do is list or request
-				your desired materials. We are dedicated to connect schools who have surplus materials
-				to schools needing materials, simultaneously forming a new shared economy.
-				Sign up for SharedSchool today!
+				SharedSchool is a marketplace that allows school surplus to be bought and sold between schools. Unlike incumbents such as Public Surplus and govdeals.com, SharedSchool is domain specific to education, meaning that only schools (public, private, and charter) can access the marketplace. This prevents public schools from having to deal with a bidding process, a key pain point when dealing with disposing and selling surplus. The SharedSchool network is accessed through a web platform and allows schools to list items for sale, contact potential buyers, and create wishlists of items they would like to buy. Schools can be both buyers and sellers. There is two-sided value creation in the marketplace. Schools selling items are able to generate revenue off of otherwise unused surplus and free up precious storage space in their buildings. Schools buying items are able to access specialized equipment and educational supplies for low costs. The exclusivity of the marketplace also builds trust because schools are more likely to build long term transactional relationships with other schools.
 			</p>
 		</div>
 	</div>
@@ -82,33 +73,33 @@
 		<div class="row justify-content-center">
 			<div class="column">
 				<div class="card">
-					<img src="https://media.licdn.com/dms/image/C4D03AQGx8LEFpSUAhQ/profile-displayphoto-shrink_800_800/0?e=1567641600&v=beta&t=PA5vJ08gsb3AECp4h6gbaNUyD76XAXGFS99xL2pwD-U" class="card-img-top" alt="Michael Rich" />
+					<img src="https://media.licdn.com/dms/image/C4E03AQErE_UTEx0Qgw/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=um1OsaO2Hpf0QAVs93AjwYAFBohFZqmIwwxcWaPRQ8w" class="card-img-top" alt="Michael Rich" />
 					<div class="card-body">
 						<h5 class="card-title">Michael Rich</h5>
-						<p class="card-text gray">CEO & Co-Founder</p>
-						<p class="card-text">Miggy's his name and startups are his game.</p>
+						<p class="card-text gray">Co-CEO & Co-Founder</p>
+						<!-- <p class="card-text">Miggy's his name and startups are his game.</p> -->
 						<a href="mailto:michaelrich@sharedschool.co" class="btn-link">michaelrich@sharedschool.co</a>
 					</div>
 				</div>
 			</div>
 			<div class="column">
 				<div class="card">
-					<img src="https://media.licdn.com/dms/image/C4D03AQHVgM5ipmDPzw/profile-displayphoto-shrink_800_800/0?e=1567641600&v=beta&t=MJVJxmE6fVT5Ztrc0I7T_0F0SFVnWNoNXu5oDHVgMwg" class="card-img-top" alt="Neelay Trivedi" />
+					<img src="https://media.licdn.com/dms/image/C4D03AQFciQCHEqSEQA/profile-displayphoto-shrink_800_800/0?e=1567641600&v=beta&t=DUp4eB8HbmFYyGQaJNrTHCqb0R3JZtAs0E9DAv2wK-4" class="card-img-top" alt="Neelay Trivedi" />
 					<div class="card-body">
 						<h5 class="card-title">Neelay Trivedi</h5>
-						<p class="card-text gray">CEO & Co-Founder</p>
-						<p class="card-text">A born pioneer with a flair for mentioning his six-pack.</p>
+						<p class="card-text gray">Co-CEO & Co-Founder</p>
+						<!-- <p class="card-text">A born pioneer with a flair for mentioning his six-pack.</p> -->
 						<a href="mailto:neelaytrivedi@sharedschool.co" class="btn-link">neelaytrivedi@sharedschool.co</a>
 					</div>
 				</div>
 			</div>
 			<div class="column">
 				<div class="card">
-					<img src="https://media.licdn.com/dms/image/C4D03AQFciQCHEqSEQA/profile-displayphoto-shrink_800_800/0?e=1567641600&v=beta&t=DUp4eB8HbmFYyGQaJNrTHCqb0R3JZtAs0E9DAv2wK-4" class="card-img-top" alt="Prateek Humane" />
+					<img src="https://media.licdn.com/dms/image/C4D03AQHVgM5ipmDPzw/profile-displayphoto-shrink_800_800/0?e=1567641600&v=beta&t=MJVJxmE6fVT5Ztrc0I7T_0F0SFVnWNoNXu5oDHVgMwg" class="card-img-top" alt="Prateek Humane" />
 					<div class="card-body">
 						<h5 class="card-title">Prateek Humane</h5>
 						<p class="card-text gray">CTO</p>
-						<p class="card-text">Smart and lazy, but actively working on the laziness.</p>
+						<!-- <p class="card-text">Smart and lazy, but actively working on the laziness.</p> -->
 						<a href="mailto:prateekhumane@sharedschool.co" class="btn-link">prateekhumane@sharedschool.co</a>
 					</div>
 				</div>
@@ -117,11 +108,11 @@
 		<div class="row justify-content-center row-bottom">
 			<div class="column">
 				<div class="card">
-					<img src="https://picsum.photos/256" class="card-img-top" alt="Rohan Kansagra" />
+					<img src="https://media.licdn.com/dms/image/C4E03AQHTGCD6UI2pvg/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=qgln2A9DsgJgEAJIE5PvsEUVWnsj7U0BQVkYW4Wjv5I" class="card-img-top" alt="Rohan Kansagra" />
 					<div class="card-body">
 						<h5 class="card-title">Rohan Kansagra</h5>
 						<p class="card-text gray">VP of Business Development</p>
-						<p class="card-text">Gymnast and entrepreneur, giving you both physical and financial flexibility.</p>
+						<!-- <p class="card-text">Gymnast and entrepreneur, giving you both physical and financial flexibility.</p> -->
 						<a href="mailto:rohankansagra@sharedschool.co" class="btn-link">rohankansagra@sharedschool.co</a>
 					</div>
 				</div>
@@ -132,7 +123,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Peter Linder</h5>
 						<p class="card-text gray">VP of Engineering</p>
-						<p class="card-text">Keeping it fresh since Halloween, 2000.</p>
+						<!-- <p class="card-text">Keeping it fresh since Halloween, 2000.</p> -->
 						<a href="mailto:peterlinder@sharedschool.co" class="btn-link">peterlinder@sharedschool.co</a>
 					</div>
 				</div>
