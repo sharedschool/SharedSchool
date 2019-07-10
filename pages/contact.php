@@ -4,27 +4,26 @@
 <head>
 	<title>Contact Us | SharedSchool</title>
 	<?php include '../helper/includes.php'; ?>
+	<style>
+		#page-content {
+			background-image: url("/img/contact-bg.png");
+			background-size: 100%;
+		}
+	</style>
 </head>
 <body data-spy="scroll" data-target="#navbar-top" data-offset="0" >
 
 <!-- Navigation bar -->
 <?php include '../helper/navbar.php'; ?>
 
-<div id="page-content" style="padding: 15px;">
-	<div class="row justify-content-center row-bottom">
-		<div class="col-md-12 text deadCenter">
-			<h1 class="blue-header">Contact Us</h1>
-		</div>
-	</div>
-	<div class="row justify-content-center row-bottom">
-		<div class="col-md-4 deadCenter text">
-			<img class="img-fluid" src="https://picsum.photos/450/245" width="450">
-		</div>
-		<div class="col-md-6 text deadCenter">
-			<p class="gray">
-				If you have any questions or would like to request a demo, please contact us at
-				<a href="mailto:contact@sharedschool.co" class="btn-link">contact@sharedschool.co</a>.
-			</p>
+<div id="page-content">
+	<div class="row justify-content-center">
+		<div class="col-md-10 deadCenter" style="min-height: 450px">
+			<img src="/img/contact-mail.png" height="100" />
+			<h1 class="blue-header deadCenter" style="color:white">
+				Don't be a stranger! For all inquiries, reach out to us at
+				<a href="mailto:contact@sharedschool.co" class="blue-header" style="color:white">contact@sharedschool.co</a>
+			</h1>
 		</div>
 	</div>
 </div>

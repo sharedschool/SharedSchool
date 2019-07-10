@@ -7,6 +7,18 @@
 	<title>About Us | SharedSchool</title>
 	<?php include '../helper/includes.php'; ?>
 	<style>
+		#navbar-top {
+			background: none;
+			transition: background 0.5s ease;
+		}
+		body {
+			background-image: url('/img/platform-bg.png');
+			background-size: 100% 529px;
+			background-repeat: repeat-x;
+		}
+		.odd, .even {
+			/* min-height: 460px; */
+		}
 		.card {
 			width: 300px;
 		}
@@ -19,7 +31,29 @@
 		.row-bottom {
 			padding-bottom: 50px;
 		}
+		img.profile-pic {
+			border-radius: 100%;
+			width: 200px;
+		}
+		.meet-team .col-md-2 {
+			margin: 25px;
+		}
 	</style>
+	<script type="text/javascript">
+		function scrollCallback(){
+			scroll_start = $(this).scrollTop();
+			if(scroll_start < 50) {
+				$("#navbar-top").css('background', 'none');
+			} else {
+				$('#navbar-top').css('background', '#3a53a4');
+			}
+		}
+		$(document).ready(function(){
+			var scroll_start = 0;
+			$(document).scroll(scrollCallback);
+			scrollCallback();
+		});
+	</script>
 </head>
 <body data-spy="scroll" data-target="#navbar-top" data-offset="0" >
 
@@ -27,106 +61,78 @@
 <?php include '../helper/navbar.php'; ?>
 
 <div id="page-content" style="padding: 15px;">
-	<div class="row justify-content-center">
-		<div class="col-md-12 text deadCenter">
-			<h3 class="green-header">About Us</h3>
+	<div class="mb-5 text-center px-2" style="min-height: 450px">
+		<div class="row justify-content-center">
+			<div class="col-md-8 text">
+				<div class="break"></div>
+				<div class="break"></div>
+				<h4 style="color: #46ffee">HI, WE'RE SHAREDSCHOOL!</h4>
+				<div class="break"></div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-7 text">
+				<h1 style="color: white">
+					We're a growing team dedicated to connecting schools with a shared economy model.
+				</h3>
+			</div>
 		</div>
 	</div>
-	<div class="row justify-content-center row-bottom">
-		<div class="col-md-6 text deadCenter">
+	<div class="row justify-content-center row-bottom row-top odd">
+		<div class="col-md-6 text">
 			<h1 class="blue-header">Our Vision</h1>
 			<div class="break"></div>
-			<p class="gray">
-				SharedSchool is a software platform that allows institutions such as primary
-				and secondary schools to buy, rent, and sell specialized educational materials.
-				Our flexible network is beneficial towards any institution. Simply put, we generate
-				revenue streams from your surplus materials and provide cheap materials that anyone
-				can rent or buy. Paired with novel matching algorithms, we create a convenient and
-				unique marketplace where all the work is done for you! All you have to do is list or request
-				your desired materials. We are dedicated to connect schools who have surplus materials
-				to schools needing materials, simultaneously forming a new shared economy.
-				Sign up for SharedSchool today!
+			<p class="gray headline">
+				To ensure surplus is used to its full potential and to enable easy access to educational materials to all schools.
 			</p>
 		</div>
 		<div class="col-md-4 deadCenter text">
-			<img class="img-fluid" src="https://picsum.photos/450/245" width="450">
+			<img src="/img/about-team.png" width="450">
 		</div>
 	</div>
-	<div class="row justify-content-center odd row-top row-bottom">
-		<div class="col-md-6 deadCenter text">
-			<img class="img-fluid" src="https://picsum.photos/550/300" width="550">
-		</div>
-		<div class="col-md-5 text deadCenter">
-			<h1 class="blue-header">What We Do</h1>
-			<div class="break"></div>
-			<p class="gray">
-				SharedSchool is a marketplace that allows school surplus to be bought and sold between schools. Unlike incumbents such as Public Surplus and govdeals.com, SharedSchool is domain specific to education, meaning that only schools (public, private, and charter) can access the marketplace. This prevents public schools from having to deal with a bidding process, a key pain point when dealing with disposing and selling surplus. The SharedSchool network is accessed through a web platform and allows schools to list items for sale, contact potential buyers, and create wishlists of items they would like to buy. Schools can be both buyers and sellers. There is two-sided value creation in the marketplace. Schools selling items are able to generate revenue off of otherwise unused surplus and free up precious storage space in their buildings. Schools buying items are able to access specialized equipment and educational supplies for low costs. The exclusivity of the marketplace also builds trust because schools are more likely to build long term transactional relationships with other schools.
-			</p>
-		</div>
-	</div>
-	<div>
+	<div class="meet-team">
 		<div class="row justify-content-center row-top">
 			<div class="col-md-12 deadCenter">
 				<h1 class="blue-header">Meet the Team</h1>
 			</div>
 		</div>
 		<div class="row justify-content-center">
-			<div class="column">
-				<div class="card">
-					<img src="https://media.licdn.com/dms/image/C4E03AQErE_UTEx0Qgw/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=um1OsaO2Hpf0QAVs93AjwYAFBohFZqmIwwxcWaPRQ8w" class="card-img-top" alt="Michael Rich" />
-					<div class="card-body">
-						<h5 class="card-title">Michael Rich</h5>
-						<p class="card-text gray">Co-CEO & Co-Founder</p>
-						<!-- <p class="card-text">Miggy's his name and startups are his game.</p> -->
-						<a href="mailto:michaelrich@sharedschool.co" class="btn-link">michaelrich@sharedschool.co</a>
-					</div>
-				</div>
+			<div class="col-md-2 text-center">
+				<img class="profile-pic" src="/img/about-michael.jpeg" />
+				<h3 class="blue-header">Michael Rich</h3>
+				<h5 class="gray headline">Co-Founder and Co-CEO</h5>
 			</div>
-			<div class="column">
-				<div class="card">
-					<img src="https://media.licdn.com/dms/image/C4D03AQFciQCHEqSEQA/profile-displayphoto-shrink_800_800/0?e=1567641600&v=beta&t=DUp4eB8HbmFYyGQaJNrTHCqb0R3JZtAs0E9DAv2wK-4" class="card-img-top" alt="Neelay Trivedi" />
-					<div class="card-body">
-						<h5 class="card-title">Neelay Trivedi</h5>
-						<p class="card-text gray">Co-CEO & Co-Founder</p>
-						<!-- <p class="card-text">A born pioneer with a flair for mentioning his six-pack.</p> -->
-						<a href="mailto:neelaytrivedi@sharedschool.co" class="btn-link">neelaytrivedi@sharedschool.co</a>
-					</div>
-				</div>
+			<div class="col-md-2 text-center">
+				<img class="profile-pic" src="/img/about-prateek.jpeg" />
+				<h3 class="blue-header">Prateek Humane</h3>
+				<h5 class="gray headline">CTO</h5>
 			</div>
-			<div class="column">
-				<div class="card">
-					<img src="https://media.licdn.com/dms/image/C4D03AQHVgM5ipmDPzw/profile-displayphoto-shrink_800_800/0?e=1567641600&v=beta&t=MJVJxmE6fVT5Ztrc0I7T_0F0SFVnWNoNXu5oDHVgMwg" class="card-img-top" alt="Prateek Humane" />
-					<div class="card-body">
-						<h5 class="card-title">Prateek Humane</h5>
-						<p class="card-text gray">CTO</p>
-						<!-- <p class="card-text">Smart and lazy, but actively working on the laziness.</p> -->
-						<a href="mailto:prateekhumane@sharedschool.co" class="btn-link">prateekhumane@sharedschool.co</a>
-					</div>
-				</div>
+			<div class="col-md-2 text-center">
+				<img class="profile-pic" src="/img/about-rohan.jpeg" />
+				<h3 class="blue-header">Rohan Kansagra</h3>
+				<h5 class="gray headline">VP of Business Development</h5>
+			</div>
+			<div class="col-md-2 text-center">
+				<img class="profile-pic" src="/img/about-neelay.jpeg" />
+				<h3 class="blue-header">Neelay Trivedi</h3>
+				<h5 class="gray headline">Co-Founder and Co-CEO</h5>
 			</div>
 		</div>
 		<div class="row justify-content-center row-bottom">
-			<div class="column">
-				<div class="card">
-					<img src="https://media.licdn.com/dms/image/C4E03AQHTGCD6UI2pvg/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=qgln2A9DsgJgEAJIE5PvsEUVWnsj7U0BQVkYW4Wjv5I" class="card-img-top" alt="Rohan Kansagra" />
-					<div class="card-body">
-						<h5 class="card-title">Rohan Kansagra</h5>
-						<p class="card-text gray">VP of Business Development</p>
-						<!-- <p class="card-text">Gymnast and entrepreneur, giving you both physical and financial flexibility.</p> -->
-						<a href="mailto:rohankansagra@sharedschool.co" class="btn-link">rohankansagra@sharedschool.co</a>
-					</div>
-				</div>
+			<div class="col-md-2 text-center">
+				<img class="profile-pic" src="/img/about-james.jpeg" />
+				<h3 class="blue-header">James Narayanan</h3>
+				<h5 class="gray headline">Frontend Engineer Intern</h5>
 			</div>
-			<div class="column">
-				<div class="card">
-					<img src="https://media.licdn.com/dms/image/C4D03AQEvfZ15389M3g/profile-displayphoto-shrink_200_200/0?e=1567641600&v=beta&t=8YEy7JKe4b-IqvzMnndX8QNfTsnzzhnOE_k4URycFzc" class="card-img-top" alt="Peter Linder" />
-					<div class="card-body">
-						<h5 class="card-title">Peter Linder</h5>
-						<p class="card-text gray">VP of Engineering</p>
-						<!-- <p class="card-text">Keeping it fresh since Halloween, 2000.</p> -->
-						<a href="mailto:peterlinder@sharedschool.co" class="btn-link">peterlinder@sharedschool.co</a>
-					</div>
-				</div>
+			<div class="col-md-2 text-center">
+				<img class="profile-pic" src="/img/about-peter.jpeg" />
+				<h3 class="blue-header">Peter Linder</h3>
+				<h5 class="gray headline">VP of Engineering</h5>
+			</div>
+			<div class="col-md-2 text-center">
+				<img class="profile-pic" src="/img/about-arjun.jpeg" />
+				<h3 class="blue-header">Arjun Singh</h3>
+				<h5 class="gray headline">Sales and Research Intern</h5>
 			</div>
 		</div>
 	</div>
