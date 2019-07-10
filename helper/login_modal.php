@@ -7,21 +7,48 @@
 				<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
-			<div class="modal-body" style="text-align:center">
+			<div class="modal-body text-center">
 				<div class="login-form">
 					<form>
 						<div class="form-group">
 							<label for="email">Email address</label>
-							<input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Email address">
+							<input type="email" class="form-control login-form-input" name="email" aria-describedby="emailHelp" placeholder="Email address" required>
 						</div>
 						<div class="form-group">
 							<label for="password">Password</label>
-							<input type="password" class="form-control" name="password" placeholder="Password">
+							<input type="password" class="form-control login-form-input" name="password" placeholder="Password" required>
 						</div>
-						<button type="submit" class="btn btn-primary">Log in</button>
+						<button id="login-button" type="submit" class="btn btn-primary" disabled>Log in</button>
 					</form>
 				</div>
+			</div>
 		</div>
 	</div>
 </div>
-</div>
+
+<script>
+	let inputs = document.getElementsByClassName("login-form-input");
+	
+	function checkInputs() {
+		let button = document.getElementById("login-button");
+		let filled = true;
+		
+		Array.from(inputs).forEach(input => {
+			if(input.value == "") { // If either of the inputs are empty
+				button.disabled = true;
+				filled = false;
+			}
+		});
+		if(filled)
+			document.getElementById("login-button").disabled = false;
+	}
+
+	Array.from(inputs).forEach(input => {
+		input.addEventListener('propertychange', checkInputs);
+		input.addEventListener('change', checkInputs);
+		input.addEventListener('click', checkInputs);
+		input.addEventListener('keyup', checkInputs);
+		input.addEventListener('input', checkInputs);
+		input.addEventListener('paste', checkInputs);
+	});
+</script>
