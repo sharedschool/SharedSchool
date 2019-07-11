@@ -61,7 +61,7 @@
 			<div class="col-md-7 text">
 				<h1 style="color: white">
 					The EdTech platform enabling schools to find resources and scale surplus
-				</h3>
+				</h1>
 			</div>
 		</div>
 	</div>
@@ -82,7 +82,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="row justify-content-center text-center odd py-3 py-md-5">
 		<div class="col px-5 text deadCenter">
 			<h3 class="green-header">DONATE</h3>
