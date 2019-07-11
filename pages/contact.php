@@ -6,7 +6,7 @@
 	<?php include '../helper/includes.php'; ?>
 	<style>
 		#page-content {
-			background-image: url("/img/contact-bg.png");
+			background-image: url("/img/contact-bg.jpg");
 			background-size: 100%;
 			background-repeat: no-repeat;
 			background-position: 0% 50%;
