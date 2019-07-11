@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include('./helper/launcher.php');
 	if (isset($_SESSION['type'])) header('Location: /portal/');
 ?>
@@ -9,6 +9,20 @@
 	<?php include './helper/includes.php'; ?>
 	<link rel="stylesheet" type="text/css" href="/css/home.css" />
 	<script type="text/javascript" src="/js/home.js"></script>
+	<style>
+		@media (min-width: 768px) {
+			.hp1 {
+				min-height: 420px;
+			}
+			.hp2 {
+				height: 600px;
+				min-height: 450px;
+			}
+			.hp3 {
+				min-height: 600px;
+			}
+		}
+	</style>
 </head>
 <body data-spy="scroll" data-target="#navbar-top" data-offset="0" >
 
@@ -34,7 +48,7 @@
 				</p>
 				<button class="btn btn-primary btn-lg demo-btn align-self-center align-self-md-start" type="button" style="align-self:flex-start">Request a Demo</button>
 			</div>
-			<div class="col-md-6 deadCenter text my-4">
+			<div class="col-md-6 deadCenter text my-4 hp1">
 				<img class="img-fluid" src="/img/home-1.png" width="550">
 			</div>
 		</div>
@@ -42,7 +56,7 @@
 
 	<div class="py-md-4">
 		<div class="row justify-content-center">
-			<div class="col-md-5 text text-center text-md-left deadCenter mb-4 mb-md-0">
+			<div class="col-md-5 text text-center text-md-left deadCenter mb-4 mb-md-0 hp2">
 				<h1 class="blue-header">See how SharedSchool works for your school</h1>
 				<p class="gray headline">
 					Empowering public and private schools through a shared economy model.
@@ -89,8 +103,8 @@
 			</div>
 		</div>
 	</div>
-	
-	<div class="deadCenter py-md-4 px-md-2">
+
+	<div class="deadCenter py-md-4 px-md-2 hp3">
 		<div class="row mb-4 mb-md-3">
 			<h1 class="blue-header text-center">The SharedSchool Process</h1>
 		</div>
