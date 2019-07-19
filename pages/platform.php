@@ -120,6 +120,19 @@
 			<button class="btn btn-primary btn-lg green-btn coming-soon align-self-center align-self-md-start" type="button">Learn More</button>
 		</div>
 	</div>
+	<div class="row flex-wrap-reverse justify-content-center align-items-center even py-3 py-md-5">
+		<div class="col-10 col-md-7 mx-3 ml-md-5 text d-flex flex-column text-center text-md-left d-flex">
+			<h3 class="green-header">SECURE</h3>
+			<h2 class="blue-header">A safe and secure network for your district</h2>
+			<p class="gray headline">
+				Sell, donate and receive surplus from people you know and can trust. Our secure network ensures that only schools are on our platform.
+			</p>
+			<button class="btn btn-primary btn-lg green-btn coming-soon align-self-center align-self-md-start" type="button">Learn More</button>
+		</div>
+		<div class="col-10 col-md-3 mt-3 mt-md-0 deadCenter text">
+			<img class="img-fluid" src="/img/platform-secure.png" width="120">
+		</div>
+	</div>
 </div>
 
 <?php include '../helper/footer.php'; ?>

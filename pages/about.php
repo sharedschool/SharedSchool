@@ -136,6 +136,25 @@
 			</div>
 		</div>
 	</div>
+	<div class="meet-team">
+		<div class="row justify-content-center row-top odd">
+			<div class="col-md-12 deadCenter">
+				<h1 class="blue-header">Our Advisors</h1>
+			</div>
+		</div>
+		<div class="row justify-content-center row-bottom odd">
+			<div class="col-md-2 text-center">
+				<img class="profile-pic" src="/img/about-jonathan.jpeg" />
+				<h3 class="blue-header">Jonathan Barcus</h3>
+				<h5 class="gray headline">Oracle Developer</h5>
+			</div>
+			<div class="col-md-2 text-center">
+				<img class="profile-pic" src="/img/about-sarah.jpeg" />
+				<h3 class="blue-header">Sarah Hernholm</h3>
+				<h5 class="gray headline">Founder of WIT</h5>
+			</div>
+		</div>
+	</div>
 
 </div>
 
