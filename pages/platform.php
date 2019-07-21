@@ -125,7 +125,7 @@
 			<h3 class="green-header">SECURE</h3>
 			<h2 class="blue-header">A safe and secure network for your district</h2>
 			<p class="gray headline">
-				Sell, donate and receive surplus from people you know and can trust. Our secure network ensures that only schools are on our platform.
+				Sell, donate and receive surplus within an exclusive network you can trust. Transactions can only occur between schools, ensuring that all SharedSchool users are trustworthy and accountable members of the educational ecosystem.
 			</p>
 			<button class="btn btn-primary btn-lg green-btn coming-soon align-self-center align-self-md-start" type="button">Learn More</button>
 		</div>
