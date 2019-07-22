@@ -44,7 +44,7 @@
 			<div class="col-md-5 text text-center text-md-left deadCenter">
 				<h1 class="blue-header">Make use of your school's surplus</h1>
 				<p class="gray headline">
-					SharedSchool is a free software platform that enables schools to buy, sell, and share supplies and equipment with eachother.
+					SharedSchool is a free software platform that enables schools to buy, sell, and share supplies and equipment with each other.
 				</p>
 				<button class="btn btn-primary btn-lg demo-btn align-self-center align-self-md-start" type="button" style="align-self:flex-start">Request a Demo</button>
 			</div>
